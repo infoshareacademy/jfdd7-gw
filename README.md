@@ -1,2 +1,2 @@
-# jfdd7-gw
-Grupa Wsparcia
+# "Coming Soon" Product Page
+by **Grupa Wsparcia**
