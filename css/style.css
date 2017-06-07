@@ -1,0 +1,27 @@
+div {
+    text-align: center;
+    color: black;
+    }
+
+.formula {
+    border-width: thin;
+    border-style: dashed;
+    border-color: coral;
+    background-color: azure;
+}
+
+footer {
+    background-color: lavender;
+    background-width: 300px;
+    text-align: right;
+}
+
+button {
+    cursor: pointer;
+}
+
+section {
+    border-style: dotted;
+    border-width: 100px;
+    border-heigh: 100px;
+}
