@@ -1,0 +1,25 @@
+#funkcjepodstawowe {
+    background-color: cornflowerblue;
+    height: 500px;
+}
+
+#funkcjepodstawowe h2 {
+    text-align: center;
+}
+
+.funkcjeglowne {
+    width: 24%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    background-color: white;
+    margin: 0px 5px;
+}
+
+.funkcjeglowne ol li {
+    list-style-type: none;
+}
+
+.clearboth {
+    clear: both;
+}
