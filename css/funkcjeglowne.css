@@ -1,6 +1,8 @@
 #funkcjepodstawowe {
-    background-color: cornflowerblue;
-    height: 500px;
+    background-color: lightsteelblue;
+    height: 100%;
+    border: none;
+    margin-bottom: 70px;
 }
 
 #funkcjepodstawowe h2 {
@@ -9,11 +11,12 @@
 
 .funkcjeglowne {
     width: 24%;
-    height: 200px;
+    height: 400px;
     float: left;
     text-align: center;
     background-color: white;
     margin: 0px 5px;
+    padding-top: 20px;
 }
 
 .funkcjeglowne ol li {
