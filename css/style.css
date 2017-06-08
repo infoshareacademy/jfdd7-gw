@@ -42,7 +42,7 @@ section {
     width: 1000px;
     height: 300px;
     margin: auto;
-    border: dotted 1px;
+    /*border: dotted 1px;*/
 }
 #funkcjepodstawowe {
 
@@ -50,29 +50,26 @@ section {
 
 
 .formula {
-    background-color: cornflowerblue;
-    text-align: center;
-    color: midnightblue;
-    border-style: solid;
-    border-color: gray;
-    padding: 50px;
-}
-
-body {
     background-image: url("https://c1.staticflickr.com/8/7693/17123251389_bed3c3a1ba_b.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2000px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: midnightblue;
+    /*border-style: solid;*/
+    /*border-color: gray;*/
+    padding: 50px;
+}
+
+body {
+    background-color: lightsteelblue;
+
 }
 
 footer {
-    background-color: lightblue;
-    border-style: solid;
-    border-color: gray;
-    background-position: center;
-    text-align: right;
     padding: 10px;
-    border-radius: 15px 15px 50px 50px;
+    text-align: center;
 }
 
 button {
@@ -103,8 +100,4 @@ input {
     border-radius: 4px;
     background-color: #9fbc70;
     color: white;
-}
-
-body {
-    background-color: lightblue;
 }
