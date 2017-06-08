@@ -47,3 +47,6 @@
     font-family: sans-serif;
     font-weight: bold;
 }
+.menu-main li a:hover {
+    background-color: white;
+}
