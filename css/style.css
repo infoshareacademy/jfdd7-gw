@@ -49,7 +49,7 @@ section {
 }
 
 
-div {
+.formula {
     background-color: cornflowerblue;
     text-align: center;
     color: midnightblue;
@@ -72,7 +72,7 @@ footer {
     background-position: center;
     text-align: right;
     padding: 10px;
-    border-radius: 15px 15px 50px 50px ;
+    border-radius: 15px 15px 50px 50px;
 }
 
 button {
@@ -99,7 +99,10 @@ form {
 }
 
 input {
-    background-attachment: fixed;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #9fbc70;
+    color: white;
 }
 
 body {
