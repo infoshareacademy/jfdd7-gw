@@ -1,39 +1,54 @@
 #zajawka{
 
-    background-image: url(img/zajawka_zdj_1.jpg);
-    width: 1688px;
-    height: 1125px;
+    background-image: url(img/zajawka_zdj_3.jpg);
+    background-size: cover;
+    background-position: 0%, 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 20%;
     font-family: Inconsolata;
-    margin: 25px;
+    margin: 30px 100px;
 
 
 }
 
+#zajawka-dol{
+    width: auto;
+    height: 60px;
+    background: linear-gradient(to right, #3f62b4, #00caca);
+}
+
 #duzy_tekst{
-   font-size: 120px;
-    color: #102343;
+   font-size: 80px;
+    color: #043c5d;
+    padding-left: 20%;
+
 
 }
 
 .maly_tekst{
-    font-size: 70px;
-    color:#102343;
+    font-size: 35px;
+    color: #f6fff7;
 
 }
 
 #button_zajawka{
 
     width: 200px;
-    height: 80px;
-    background-color: #4ff5ff;
+    height: 70px;
+    background-color: #0488cf;
     border-radius: 10px;
     border-color: #42c0ff;
-    border: solid 3px;
+
     font-family: "DejaVu Serif Condensed";
     text-align: center;
-    float: left;
+
     margin: 50px;
-    padding-top: 15px;
+    padding-top: 30px;
 
 
+}
+
+#button_zajawka:hover{
+    background-color:  #42c0ff;
 }
