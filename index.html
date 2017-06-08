@@ -1,37 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--TODO: w jakim języku robimy stronę -->
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Title</title>
+    <title>Kurs HTML</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
-
 <body>
+   <header>
+       <div id="logo">
 
-    <div>
+           LOGO
+       </div>
+       <nav>
+           <ul>
+               <li><a href="#zajawka">Zajawka</a></li>
+               <li><a href="#funkcjepodstawowe">Funkcje Podstawowe</a></li>
+               <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
+               <li><a href="#formularz">Formularz</a></li>
+               <li><a href="#zespol">Zespół</a></li>
+           </ul>
+       </nav>
+   </header>
+   <main>
+       <section id="zajawka"></section>
+       <section id="funkcjepodstawowe">
+           <h2>Funkcje Główne</h2>
+           <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
 
-        Chcielibyśmy zaprezentować Państwu naszą aplikację.<br>
-        <strong>Zainteresowani?</strong><br>
-        Prosimy o podanie nam swojego maila, a my odeślemy Państwu wiadomość z informacją o premierze. <br>
-        To całkowicie bezpieczne - dostaniesz od nas tylko jednego maila.
+               1.    Ewidencja wydatków
+               2.    Ewidencja dochodów
+               3.    Przegląd zestawień
+               4.    Przypomnienia  o płatnościach
+           </ul>
+       </section>
+       <section id="funkcjerozszerzone"></section>
+       <section id="formularz">
+           <div>
+
+               Chcielibyśmy zaprezentować Państwu naszą aplikację.<br>
+               <strong>Zainteresowani?</strong><br>
+               Prosimy o podanie nam swojego maila, a my odeślemy Państwu wiadomość z informacją o premierze. <br>
+               To całkowicie bezpieczne - dostaniesz od nas tylko jednego maila.
 
 
-        <form>
-            <fieldset>
-                E-mail:
-                <input type="email" name="email" value="your@mail.com" size="30">
-                <button type="button" onclick="alert('Dziekujemy za zainteresowanie! Na pewno Cie nie zawiedziemy.')">Zamów!</button>
-            </fieldset>
+               <form>
+                   <fieldset>
+                       E-mail:
+                       <input type="email" name="email" value="your@mail.com" size="30">
+                       <button type="button" onclick="alert('Dziekujemy za zainteresowanie! Na pewno Cie nie zawiedziemy.')">Zamów!</button>
+                   </fieldset>
 
-        </form>
+               </form>
 
-    </div>
+           </div>
+       </section>
+       <section id="zespol"></section>
 
-    <footer>
-
-        Copyright 2017 - GrupaWsparcia
-
-    </footer>
-
+   </main>
+   <footer>copyright </footer>
+    <!--TODO -->
 </body>
 </html>
