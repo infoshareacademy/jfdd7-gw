@@ -5,42 +5,66 @@
     <meta charset="UTF-8">
     <title>Kurs HTML</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/funkcjeglowne.css" type="text/css" />
+    <link rel="stylesheet" href="css/stylemenu.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-   <header>
-       <div id="logo">
+<nav class="menu-main">
+    <ul>
+        <li><a href="#zajawka">Zajawka</a></li>
+        <li><a href="#funkcjepodstawowe">Funkcje podstawowe</a></li>
+        <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
+        <li><a href="#formularz">Formularz</a></li>
+        <li><a href="#zespol">Zespół</a></li>
+    </ul>
+    <div class="background"></div>
 
-           LOGO
-       </div>
-       <nav>
-           <ul>
-               <li><a href="#zajawka">Zajawka</a></li>
-               <li><a href="#funkcjepodstawowe">Funkcje Podstawowe</a></li>
-               <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
-               <li><a href="#formularz">Formularz</a></li>
-               <li><a href="#zespol">Zespół</a></li>
-           </ul>
-       </nav>
-   </header>
+</nav>
    <main>
        <section id="zajawka"></section>
        <section id="funkcjepodstawowe">
            <h2>Funkcje Główne</h2>
-           <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
 
-               1.    Ewidencja wydatków
-               2.    Ewidencja dochodów
-               3.    Przegląd zestawień
-               4.    Przypomnienia  o płatnościach
-           </ul>
+           <div class="funkcjeglowne">
+               <i class="fa fa-google-wallet fa-5x"></i>
+               <h3>Ewidencja wydatków</h3>
+               <p>Prowadzenie ewidencji wydatków w podziale na:
+                   <ol>
+                       <li>miejsca wydatków,</li>
+                       <li>kategorie wydatków</li>
+                       <li>sposób finansowania</li>
+                       <li>daty powstania wydatków</li>
+                    </ol>
+
+               </p>
+           </div>
+           <div class="funkcjeglowne">
+               <i class="fa fa-money fa-5x" aria-hidden="true"></i>
+               <h3>Ewidencja dochodów</h3>
+               <p>Prowadzenie ewidencji dochodów w podziale na:
+                    <ol>
+                       <Li>źródła dochodu,</Li>
+                        <li>portfele,</li>
+                        <Li>daty uzyskania dochodu.</Li>
+                    </ol>
+               </p>
+           </div>
+           <div class="funkcjeglowne">
+               <i class="fa fa-bar-chart fa-5x"></i>
+               <h3>Przegląd zestawień</h3>
+               <p>Tworzenie oraz wydruk zestawień tabelarycznych i graficznych dla wydatków i dochodów według kilkunastu różnych kryteriów dla dowolnie zdefiniowanych zakresów czasowych. </p>
+           </div>
+           <div class="funkcjeglowne">
+               <i class="fa fa-bell fa-5x"></i>
+               <h3>Przypomnienia  o płatnościach</h3>
+               <p>Zdefiniowanie przypomnień o rachunkach i płatnościach wyświetlających w zadanym dniu o zadanej porze monity o dowolnej treści (np. "Pamiętaj o opłaceniu raty kredytu"). </p>
+           </div>
+           <div class="clearboth"></div>
+
+
        </section>
        <section id="funkcjerozszerzone"></section>
-
-
        <section id="formularz">
            <div class="formula">
 
@@ -65,7 +89,8 @@
 
        <section id="zespol"></section>
 
-   </main>
+</main>
+<footer>copyright </footer>
 
     <!--TODO -->
 </body>
