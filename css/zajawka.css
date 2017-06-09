@@ -19,36 +19,64 @@
 }
 
 #duzy_tekst{
-   font-size: 80px;
+   font-size: 85px;
     color: #043c5d;
-    padding-left: 20%;
-    font-family: 'Lobster', cursive;
+    padding-left: 10%;
+
+    font-family: 'Exo', sans-serif;
 
 }
 
 .maly_tekst{
-    font-size: 35px;
+    font-size: 40px;
     color: #f6fff7;
+    padding-left: 5%;
+
 
 }
 
-#button_zajawka{
-
-    width: 200px;
-    height: 70px;
-    background-color: #0488cf;
-    border-radius: 10px;
-    border-color: #42c0ff;
-
-    font-family: 'Bree Serif', serif;
+.button{
+    text-decoration: none;
+    background-color: ##3f62b4;
+    color: #ffffff;
     text-align: center;
-
-    margin: 50px;
-    padding-top: 30px;
-
+    font-family: 'Vidaloka', serif;
+    font-size: medium;
+    width: 250px;
+    height: auto;
+    line-height: 25px;
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+    overflow: hidden;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    border-radius: 10px;
 
 }
 
-#button_zajawka:hover{
-    background-color:  #42c0ff;
+.button:hover{
+    background-color: #3f62b4;
+    color: #ffffff;
+
+}
+
+.button:before {
+    content: "";
+    background-color: rgba(255,255,255, 0.5);
+    height: 100%;
+    width: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    transform: skewX(-45deg) translateX(0px);
+    transition: none;
+}
+
+
+
+.button:hover:before{
+    transform: skewX(-45deg) translateX(350px);
+    transition: all 0.35s ease-in;
 }
