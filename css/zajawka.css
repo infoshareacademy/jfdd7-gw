@@ -1,0 +1,54 @@
+#zajawka{
+
+    background-image: url(img/zajawka_zdj_3.jpg);
+    background-size: cover;
+    background-position: 0%, 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 20%;
+    font-family: Inconsolata;
+    margin: 30px 100px;
+
+
+}
+
+#zajawka-dol{
+    width: auto;
+    height: 60px;
+    background: linear-gradient(to right, #3f62b4, #00caca);
+}
+
+#duzy_tekst{
+   font-size: 80px;
+    color: #043c5d;
+    padding-left: 20%;
+
+
+}
+
+.maly_tekst{
+    font-size: 35px;
+    color: #f6fff7;
+
+}
+
+#button_zajawka{
+
+    width: 200px;
+    height: 70px;
+    background-color: #0488cf;
+    border-radius: 10px;
+    border-color: #42c0ff;
+
+    font-family: "DejaVu Serif Condensed";
+    text-align: center;
+
+    margin: 50px;
+    padding-top: 30px;
+
+
+}
+
+#button_zajawka:hover{
+    background-color:  #42c0ff;
+}
