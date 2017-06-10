@@ -1,5 +1,17 @@
+/*color1: rgba(253, 251, 253, 1);   */
+/*        #fdfbfd;                  */
+/*color2: rgba(247, 207, 181, 1);   */
+/*        #f7cfb5;                  */
+/*color3: rgba(224, 217, 218, 1);   */
+/*        #e0d9da;                  */
+/*color4: rgba(63, 54, 75, 1);      */
+/*        #3f364b;                  */
+/*color5: rgba(163, 58, 80, 1);     */
+/*        #a33a50;                  */
+
 body {
-    background: lightsteelblue;
+    /*background-color: #f7cfb5;*/
+    background-color: rgba(247, 207, 181, 1);;
 }
 
 header {
@@ -38,15 +50,13 @@ main {
 }
 
 section {
-    background-color: white;
-    width: 1000px;
-    height: 300px;
-    margin: auto;
+    /*background-color: white;*/
+    /*width: 1000px;*/
+    /*height: 300px;*/
+    /*margin: auto;*/
     /*border: dotted 1px;*/
 }
-#funkcjepodstawowe {
 
-}
 
 
 .formula {
@@ -62,10 +72,6 @@ section {
     padding: 50px;
 }
 
-body {
-    background-color: lightsteelblue;
-
-}
 
 footer {
     padding: 10px;
