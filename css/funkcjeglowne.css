@@ -1,6 +1,6 @@
 
 #funkcjepodstawowe {
-    background-color: rgba(163, 58, 80, 1);
+    background-color: rgba(63, 54, 75, 1);
     margin-left: -8px;
     height: 100%;
     width: 100%;
@@ -20,7 +20,7 @@
     float: left;
     text-align: center;
     color: rgba(224, 217, 218, 1);
-    background-color: rgba(247, 207, 181, 0.1);
+    background-color: rgba(224, 217, 218, 0.1);
     
     margin: 0px 5px;
     padding-top: 20px;
