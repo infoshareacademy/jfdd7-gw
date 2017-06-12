@@ -1,5 +1,21 @@
+/*color1: rgba(253, 251, 253, 1);   */
+/*        #fdfbfd;                  */
+/*color2: rgba(247, 207, 181, 1);   */
+/*        #f7cfb5;                  */
+/*color3: rgba(224, 217, 218, 1);   */
+/*        #e0d9da;                  */
+/*color4: rgba(63, 54, 75, 1);      */
+/*        #3f364b;                  */
+/*color5: rgba(163, 58, 80, 1);     */
+/*        #a33a50;                  */
+
 body {
-    background: lightsteelblue;
+    background-color: #fdfbfd;
+    font-family: Raleway, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Lato, serif;
 }
 
 header {
@@ -37,67 +53,6 @@ main {
     clear: both;
 }
 
-section {
-    background-color: white;
-    width: 1000px;
-    height: 300px;
-    margin: auto;
-    /*border: dotted 1px;*/
-}
-#funkcjepodstawowe {
-
-}
 
 
-.formula {
-    background-image: url("https://c1.staticflickr.com/8/7693/17123251389_bed3c3a1ba_b.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 2000px;
-    background-color: cornflowerblue;
-    text-align: center;
-    color: midnightblue;
-    /*border-style: solid;*/
-    /*border-color: gray;*/
-    padding: 50px;
-}
 
-body {
-    background-color: lightsteelblue;
-
-}
-
-footer {
-    padding: 10px;
-    text-align: center;
-}
-
-button {
-    cursor: pointer;
-    font-size: larger;
-    border-radius: 30%;
-    height: 30px;
-    width: 100px;
-    color: cornflowerblue;
-}
-
-fieldset {
-    border-color: gray;
-    border-style: solid;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-right: 20px;
-}
-
-form {
-    background-color: lightblue;
-}
-
-input {
-    border: 2px solid white;
-    border-radius: 4px;
-    background-color: #9fbc70;
-    color: white;
-}

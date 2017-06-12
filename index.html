@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--TODO: w jakim języku robimy stronę -->
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>Kurs HTML</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/funkcjeglowne.css" type="text/css" />
+    <link rel="stylesheet" href="css/formularz.css">
     <link rel="stylesheet" href="css/stylemenu.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/zajawka.css" type="text/css">
@@ -13,19 +13,29 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat|Maven+Pro|Trochut&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <body>
-<nav class="menu-main">
-    <ul>
-        <li><a href="#zajawka">Zajawka</a></li>
-        <li><a href="#funkcjepodstawowe">Funkcje podstawowe</a></li>
-        <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
-        <li><a href="#formularz">Formularz</a></li>
-        <li><a href="#zespol">Zespół</a></li>
-    </ul>
-    <div class="background"></div>
+    <nav class="menu-main">
+        <ul>
+            <li><a href="#zajawka">Zajawka</a></li>
+            <li><a href="#funkcjepodstawowe">Funkcje podstawowe</a></li>
+            <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
+            <li><a href="#formularz">Formularz</a></li>
+            <li><a href="#zespol">Zespół</a></li>
+        </ul>
+        <div class="background"></div>
 
-</nav>
+    </nav>
    <main>
        <section id="zajawka">
+           <p>
+               <ul>
+                   <li class="maly_tekst">   Zarządzaj swoim budżetem</li>
+                   <li class="maly_tekst">   Oszczędzaj czas i pieniądze</li>
+                </ul>
+           <p id="duzy_tekst"> Aplikacja budżetowa NAZWA</p>
+
+           <a href="">
+               <div id="button_zajawka">Przejdz do formularza <br> zamówienia
+               </div>
 
            <div id="zajawka_gora">Aplikacja budżetowa <span
                    style="font-family: 'Trochut', cursive; color: #3f364b"> GW1 </span></div>
@@ -37,7 +47,6 @@
            </a>
 
        </section>
-
        <section id="funkcjepodstawowe">
            <h2>Funkcje Główne</h2>
 
@@ -51,8 +60,6 @@
                        <li>sposób finansowania</li>
                        <li>daty powstania wydatków</li>
                     </ol>
-
-               </p>
            </div>
            <div class="funkcjeglowne">
                <i class="fa fa-money fa-5x" aria-hidden="true"></i>
@@ -63,7 +70,6 @@
                         <li>portfele,</li>
                         <Li>daty uzyskania dochodu.</Li>
                     </ol>
-               </p>
            </div>
            <div class="funkcjeglowne">
                <i class="fa fa-bar-chart fa-5x"></i>
@@ -79,15 +85,71 @@
 
 
        </section>
-       <section id="funkcjerozszerzone"></section>
+       <section id="funkcjerozszerzone">
+           <h2>Funkcje rozszerzone</h2>
+           <div class="funkcjedodatkowe">
+               <div id="kolumna1" class="floatleft">
+                   <h3>Funkcja skarbonki</h3>
+                   <h3>Kalkulator walutowy</h3>
+                   <h3>Analiza wydatków</h3>
+               </div>
+               <div id="kolumna2" class="floatleft">
+                   <h3>Znajdowanie oszczędności</h3>
+                   <h3>Ustalanie celów</h3>
+                   <h3>Porównywarka cen</h3>
+                   <p>Wyszukiwanie optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do ilości</p>
+               </div>
+               <div class="clearboth"></div>
+           </div>
+
+       </section>
+
+       <section id="zespol">
+
+           <h2>Zespół</h2>
+
+           <div class="czlonkowie">
+               <i class="fa fa-google-wallet fa-5x"></i>
+               <h3>Artur</h3>
+               <p>Prowadzenie ewidencji wydatków w podziale na:
+                   <ol>
+                       <li>miejsca wydatków,</li>
+                       <li>kategorie wydatków</li>
+                       <li>sposób finansowania</li>
+                       <li>daty powstania wydatków</li>
+                   </ol>
+           </div>
+           <div class="czlonkowie">
+               <i class="fa fa-money fa-5x" aria-hidden="true"></i>
+               <h3>Piotr</h3>
+               <p>Prowadzenie ewidencji dochodów w podziale na:
+               <ol>
+                   <Li>źródła dochodu,</Li>
+                   <li>portfele,</li>
+                   <Li>daty uzyskania dochodu.</Li>
+               </ol>
+           </div>
+           <div class="czlonkowie">
+               <i class="fa fa-bar-chart fa-5x"></i>
+               <h3>Mateusz</h3>
+               <p>Tworzenie oraz wydruk zestawień tabelarycznych i graficznych dla wydatków i dochodów według kilkunastu różnych kryteriów dla dowolnie zdefiniowanych zakresów czasowych. </p>
+           </div>
+           <div class="czlonkowie">
+               <i class="fa fa-bell fa-5x"></i>
+               <h3>Tomasz</h3>
+               <p>Zdefiniowanie przypomnień o rachunkach i płatnościach wyświetlających w zadanym dniu o zadanej porze monity o dowolnej treści (np. "Pamiętaj o opłaceniu raty kredytu"). </p>
+           </div>
+           <div class="clearboth"></div>
+       </section>
+
        <section id="formularz">
            <div class="formula">
-
+            <div id="formulatext">
                Chcielibyśmy zaprezentować Państwu naszą aplikację.<br>
                <strong>Zainteresowani?</strong><br>
                Prosimy o podanie nam swojego maila, a my odeślemy Państwu wiadomość z informacją o premierze. <br>
                To całkowicie bezpieczne - dostaniesz od nas tylko jednego maila.
-
+            </div>
 
                <form>
                    <fieldset>
@@ -102,11 +164,11 @@
        </section>
 
 
-       <section id="zespol"></section>
+
 
 </main>
 <footer>Copyright 2017 - Grupa Wsparcia</footer>
 
-    <!--TODO -->
+    <!--TODO  -->
 </body>
 </html>
