@@ -12,7 +12,8 @@
 
 }
 .menu-main .background {
-    background-color: rgba(63, 54, 75, 0.6);
+    background-color: #808080;
+    opacity: 0.6;
     position: absolute;
     top: 0;
     left: 0;
