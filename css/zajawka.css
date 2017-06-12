@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     width: 100%;
 
+
 }
 
 #zajawka_gora{
@@ -41,7 +42,7 @@
 }
 
 
-a:#button{
+a #button{
     text-decoration: none;
     color: rgba(247, 207, 181, 1);
 
@@ -66,3 +67,6 @@ a:#button{
 
 
 }
+ .clear{
+     clear: both;
+ }
