@@ -1,0 +1,56 @@
+#formularz  {
+    background-image: url("https://c1.staticflickr.com/8/7693/17123251389_bed3c3a1ba_b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px;
+}
+.formula {
+
+    background-color: rgba(224, 217, 218, 0.8);
+    text-align: center;
+    color: #3f364b;
+    padding: 50px;
+}
+
+#formulatext {
+    background-color: rgba(224, 217, 218, 0.5);
+}
+
+button {
+    background-color: #a33a50;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 30%;
+    height: 30px;
+    width: 100px;
+    color: #fdfbfd;
+}
+
+fieldset {
+    border: 2px solid;
+    border-color: #3f364b;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #e0d9da;
+}
+
+input {
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #fdfbfd;
+}
+
+footer {
+    color: #e0d9da;
+    background-color: #3f364b;
+    padding: 10px;
+    text-align: right;
+}

@@ -1,0 +1,72 @@
+#zajawka{
+    background-image: url(img/zajawka_kol.JPG);
+    background-size: 100%;
+    background-position: 0%, 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+}
+
+#zajawka_gora{
+    width: 100%;
+    font-size: 85px;
+    color: #a33a50;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    background-color: rgba(253, 251, 253, 0.3);
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
+.zajawka_opis{
+    font-size: 130%;
+    color: #3f364b;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    background-color:  rgba(253, 251, 253, 0.3);
+    width: 30%;
+    position: relative;
+    left: 4%;
+    padding: 1%;
+    margin: 1.5%;
+}
+
+#1{
+    width: 40%;
+    float: left;
+
+
+}
+
+
+a #button{
+    text-decoration: none;
+    color: rgba(247, 207, 181, 1);
+
+}
+
+
+
+
+#button{
+    background-color: rgba(163, 58, 80, 0.5);
+    text-align: center;
+    color: rgba(247, 207, 181, 1);
+    position: relative;
+    right:-61%;
+    bottom: 150px;
+    font-family: 'Maven Pro', sans-serif;
+    width: 30%;
+    font-size: 130%;
+    border-radius: 10px;
+    padding:1%;
+    margin: 2%;
+
+
+}
+ .clear{
+     clear: both;
+ }
