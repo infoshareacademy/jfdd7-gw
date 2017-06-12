@@ -1,11 +1,10 @@
 
 #funkcjepodstawowe {
     background-color: rgba(63, 54, 75, 1);
-    /*margin-left: -8px;*/
     height: 100%;
     width: 100%;
     border: none;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 #funkcjepodstawowe h2 {
@@ -20,8 +19,8 @@
 }
 
 .funkcjeglowne {
-    width: 24%;
-    min-width: 200px;
+    width: 22%;
+    min-width: 150px;
     height: 400px;
     display: inline-block;
     vertical-align: top;
@@ -29,7 +28,7 @@
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
 
-    margin: 0px 5px;
+    margin: 5px;
     padding-top: 20px;
 }
 
