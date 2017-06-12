@@ -30,6 +30,37 @@
     list-style-type: none;
 }
 
+#funkcjerozszerzone {
+    /*background-color: rgba(224, 217, 218, 1);*/
+}
+
+#funkcjerozszerzone h2 {
+    text-align: center;
+}
+
+#funkcjedodatkowe {
+
+}
+
+#kolumna {
+    float: left;
+    background-color: rgba(224, 217, 218, 1);
+}
+
+#kolumna {
+    float: left;
+    background-color: rgba(224, 217, 218, 1);
+    width: 50%;
+    }
+
+.floatleft{
+    float:left;
+}
+
+.floatright {
+    float: right;
+}
+
 .clearboth {
-    clear: both;
+clear: both;
 }
