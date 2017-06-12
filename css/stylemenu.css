@@ -12,13 +12,13 @@
 
 }
 .menu-main .background {
-    background-color: #808080;
-    opacity: 0.6;
+    background-color: rgba(224, 217, 218, 0.7);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+
 }
 .menu-main ul {
     list-style-type: none;
