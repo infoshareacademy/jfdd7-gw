@@ -66,6 +66,23 @@
     width: 60%;
     border-radius:20px;
     height: 150px;
+    position: relative;
+    z-index: -100;
+}
+
+.funkcja>p {
+    display: none;
+    background-color: rgba(224, 217, 218, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 150px;
+    vertical-align: middle;
+
+}
+
+.funkcja>p:hover {
+    display: block;
 }
 
 .floatleft{
