@@ -1,7 +1,7 @@
 
 #funkcjepodstawowe {
     background-color: rgba(63, 54, 75, 1);
-    margin-left: -8px;
+    /*margin-left: -8px;*/
     height: 100%;
     width: 100%;
     border: none;
@@ -14,14 +14,21 @@
     padding-top: 10px;
 }
 
+#funkcjeglownekontener {
+    margin: auto;
+    text-align: center;
+}
+
 .funkcjeglowne {
     width: 24%;
+    min-width: 200px;
     height: 400px;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
-    
+
     margin: 0px 5px;
     padding-top: 20px;
 }
@@ -31,7 +38,7 @@
 }
 
 #funkcjerozszerzone {
-    /*background-color: rgba(224, 217, 218, 1);*/
+    color: #3f364b;
 }
 
 #funkcjerozszerzone h2 {
@@ -42,16 +49,25 @@
 
 }
 
-#kolumna {
-    float: left;
-    background-color: rgba(224, 217, 218, 1);
-}
+/*#kolumna {*/
+    /*float: left;*/
+    /*background-color: rgba(224, 217, 218, 1);*/
+/*}*/
 
-#kolumna {
-    float: left;
-    background-color: rgba(224, 217, 218, 1);
+.kolumna {
+
     width: 50%;
+    text-align: center;
     }
+
+.funkcja {
+    background-color: rgba(224, 217, 218, 1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius:20px;
+    height: 150px;
+}
 
 .floatleft{
     float:left;
