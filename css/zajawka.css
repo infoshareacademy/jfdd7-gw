@@ -19,12 +19,13 @@
 }
 
 .zajawka_opis{
-    font-size: 150%;
+    font-size: 200%;
     color: #3f364b;
     text-align: center;
     border-radius: 10px;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
    /* background-color:  rgba(253, 251, 253, 0.3); */
+
     width: 40%;
     margin-top: 40px;
    /* padding: 1%; */
