@@ -21,15 +21,16 @@
     margin: 0px 5px;
     padding-top: 20px;
     display: inline-block;
+    border-radius: 20px;
 }
 
 .czlonkowie:hover {
-    background-color: #a33a50;
+    background-color: #f7cfb5;
     color: white;
 }
 
 .photo {
-    width: 60%;
+    width: 110px;
     height: 50%;
     border-radius: 100px;
 }
