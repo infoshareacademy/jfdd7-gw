@@ -16,7 +16,7 @@
     background-color: rgba(224, 217, 218, 0.5);
 }
 
-button {
+.button-form {
     background-color: #a33a50;
     cursor: pointer;
     font-size: larger;
@@ -26,7 +26,7 @@ button {
     color: #fdfbfd;
 }
 
-button:hover {
+.button-form:hover {
     background-color: #3f364b;
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
