@@ -83,6 +83,12 @@
 
 .funkcja>p:hover {
     display: block;
+    background-color: rgba(224, 217, 218, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 150px;
+    vertical-align: middle;
 }
 
 .floatleft{
