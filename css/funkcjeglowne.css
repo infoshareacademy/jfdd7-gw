@@ -69,28 +69,28 @@
     border-radius:20px;
     height: 150px;
     position: relative;
-    z-index: -100;
+    /*z-index: -100;*/
 }
 
-.funkcja>p {
+.funkcja > i {
+    color: rgba(163, 58, 80, 1);
+}
+
+.funkcja div {
     display: none;
     background-color: rgba(224, 217, 218, 1);
     position: absolute;
     top: 0;
     right: 0;
-    height: 150px;
-    vertical-align: middle;
+    height: 145px;
+    border-radius:20px;
+    padding: 25px 5px;
+    /*vertical-align: middle;*/
 
 }
 
-.funkcja>p:hover {
+.funkcja:hover div {
     display: block;
-    background-color: rgba(224, 217, 218, 1);
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 150px;
-    vertical-align: middle;
 }
 
 .floatleft{
