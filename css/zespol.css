@@ -1,0 +1,32 @@
+#zespol {
+    background-color: rgba(63, 54, 75, 1);
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+
+#zespol h2 {
+    text-align: center;
+    color: rgba(224, 217, 218, 1);
+    padding-top: 10px;
+}
+.czlonkowie {
+    width: 22%;
+    height: 300px;
+    /*float: left;*/
+    text-align: center;
+    color: rgba(224, 217, 218, 1);
+    background-color: rgba(224, 217, 218, 0.1);
+    margin: 0px 5px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.photo {
+    width: 80%;
+    height: 50%;
+    border-radius: 100px;
+}

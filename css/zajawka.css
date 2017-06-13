@@ -1,9 +1,11 @@
 #zajawka{
-    background-image: url(img/zajawka_kol.jpg);
+    background-image: url(img/zajawka_kol.JPG);
     background-size: 100%;
     background-position: 0%, 100%;
     background-repeat: no-repeat;
     width: 100%;
+
+
 }
 
 #zajawka_gora{
@@ -15,6 +17,7 @@
     background-color: rgba(253, 251, 253, 0.3);
     margin-top: 5%;
     border-radius: 10px;
+
 }
 
 .zajawka_opis{
@@ -28,16 +31,18 @@
     position: relative;
     left: 4%;
     padding: 1%;
-    margin: 2%;
+    margin: 1.5%;
 }
 
 #1{
     width: 40%;
     float: left;
+
+
 }
 
 
-a:#button{
+a #button{
     text-decoration: none;
     color: rgba(247, 207, 181, 1);
 
@@ -62,3 +67,6 @@ a:#button{
 
 
 }
+ .clear{
+     clear: both;
+ }
