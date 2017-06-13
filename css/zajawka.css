@@ -4,6 +4,8 @@
     background-position: 0%, 100%;
     background-repeat: no-repeat;
     width: 100%;
+    position: relative;
+    margin-top:55px;
 
 
 }
@@ -14,59 +16,48 @@
     color: #a33a50;
     text-align: center;
     font-family: 'Caveat', cursive;
-    background-color: rgba(253, 251, 253, 0.3);
-    margin-top: 5%;
+   /* background-color: rgba(253, 251, 253, 0.3); */
     border-radius: 10px;
-
+    background-color: rgba(247, 207, 181, 0.4) ;
 }
 
 .zajawka_opis{
-    font-size: 130%;
+    font-size: 30px;
     color: #3f364b;
     text-align: center;
     border-radius: 10px;
-    font-family: 'Maven Pro', sans-serif;
-    background-color:  rgba(253, 251, 253, 0.3);
-    width: 30%;
-    position: relative;
-    left: 4%;
-    padding: 1%;
-    margin: 1.5%;
-}
-
-#1{
+    font-family: 'Khula', sans-serif;
     width: 40%;
+    margin-top: 30px;
+    margin-left: 60px;
     float: left;
-
-
 }
 
 
-a #button{
+.button{
+
+    display: inline-block;
+    background-color: rgba(163, 58, 80, 1);
+    text-align: center;
     text-decoration: none;
     color: rgba(247, 207, 181, 1);
-
-}
-
-
-
-
-#button{
-    background-color: rgba(163, 58, 80, 0.5);
-    text-align: center;
-    color: rgba(247, 207, 181, 1);
-    position: relative;
-    right:-61%;
-    bottom: 150px;
-    font-family: 'Maven Pro', sans-serif;
-    width: 30%;
-    font-size: 130%;
+     position: absolute;
+    right: 7%;
+    bottom: 8%;
+    font-family: "Maven Pro", sans-serif;
+    width: 15%;
+    font-size: 35px;
     border-radius: 10px;
-    padding:1%;
+    padding:10px;
     margin: 2%;
-
-
+    float: right;
 }
  .clear{
      clear: both;
  }
+
+ #gorny{
+     width:100%;
+     height: 60px;
+ }
+
