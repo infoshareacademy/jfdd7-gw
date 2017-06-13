@@ -1,11 +1,25 @@
-.menu-main {
-    max-height: 55px;
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    box-shadow: 0 0 5px #000;
+    height: 80px;
+
+}
+header {
     position: fixed;
+    display:  flex;
+    justify-content: flex-end;
+
     top: 0;
     left: 0;
     right: 0;
     z-index: 22000;
     background-color: rgba(63, 54, 75, 0.8);
+    max-height: 55px;
+}
+.menu-main {
+    position: relative;
     text-align: center;
 }
 
@@ -31,6 +45,7 @@
     font-size: 16px;
     font-family: sans-serif;
     transition: color 100ms ease;
+    line-height: 40px;
 }
 
 .menu-main li a:hover {
