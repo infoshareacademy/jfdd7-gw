@@ -5,7 +5,6 @@
     border: none;
     padding-bottom: 70px;
     text-align: center;
-
 }
 
 #zespol h2 {
@@ -16,7 +15,6 @@
 .czlonkowie {
     width: 22%;
     height: 300px;
-    /*float: left;*/
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
@@ -25,8 +23,13 @@
     display: inline-block;
 }
 
+.czlonkowie:hover {
+    background-color: #a33a50;
+    color: white;
+}
+
 .photo {
-    width: 80%;
+    width: 60%;
     height: 50%;
     border-radius: 100px;
 }

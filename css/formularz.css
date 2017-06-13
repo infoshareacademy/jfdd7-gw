@@ -20,10 +20,16 @@ button {
     background-color: #a33a50;
     cursor: pointer;
     font-size: larger;
-    border-radius: 30%;
+    border-radius: 12px;
     height: 30px;
     width: 100px;
     color: #fdfbfd;
+}
+
+button:hover {
+    background-color: #3f364b;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 fieldset {
@@ -46,7 +52,7 @@ input {
     border: 2px solid white;
     border-radius: 4px;
     background-color: #fdfbfd;
-}
+    }
 
 footer {
     color: #e0d9da;
