@@ -1,52 +1,40 @@
-.clear {
-    clear: both;
-}
-
 .menu-main {
-    max-height: 70px;
+    max-height: 55px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-
-
+    z-index: 22000;
+    background-color: rgba(63, 54, 75, 0.8);
+    text-align: center;
 }
-.menu-main .background {
-    background-color: #808080;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+
 .menu-main ul {
     list-style-type: none;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin-top: 0;
-    z-index: 9000;
-
     position: relative;
-
+    height: 40px;
 }
+
 .menu-main li {
     display: inline-block;
     margin-right: 20px;
-
 }
+
 .menu-main a  {
     display: inline-block;
-    color: black;
-    background-color: #c9c9c9;
+    color: white;
     padding: 7px;
-    border: 1px solid black;
-    border-radius: 9px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-family: sans-serif;
-    font-weight: bold;
+    transition: color 100ms ease;
 }
+
 .menu-main li a:hover {
-    background-color: white;
+    transition: color 200ms ease;
+    color: rgba(163, 58, 80, 1);
+    text-decoration: underline;
 }
