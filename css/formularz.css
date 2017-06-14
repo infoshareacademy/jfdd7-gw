@@ -65,6 +65,9 @@ footer {
     min-height: 40px;
     padding: 10px;
 }
+.footer-div {
+    padding-top: 10px;
+}
 
 .logo-footer {
     position: relative;
