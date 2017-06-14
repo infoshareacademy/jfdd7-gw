@@ -1,4 +1,4 @@
-.logo {
+.logoHead {
     position: absolute;
     left: 20px;
     top: 0;
@@ -8,9 +8,6 @@
 }
 header {
     position: fixed;
-    display:  flex;
-    justify-content: flex-end;
-
     top: 0;
     left: 0;
     right: 0;
@@ -50,6 +47,5 @@ header {
 
 .menu-main li a:hover {
     transition: color 200ms ease;
-    color: rgba(163, 58, 80, 1);
-    text-decoration: underline;
+    color: rgba(247, 207, 181, 1);
 }
