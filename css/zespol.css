@@ -25,12 +25,12 @@
 }
 
 .czlonkowie:hover {
-    background-color: #f7cfb5;
+    background-color: #a33a50;
     color: white;
 }
 
 .photo {
-    width: 110px;
-    height: 50%;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
 }

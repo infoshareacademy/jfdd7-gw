@@ -5,11 +5,10 @@
     background-size: 2000px;
 }
 .formula {
-
     background-color: rgba(224, 217, 218, 0.7);
     text-align: center;
     color: #3f364b;
-    padding: 50px;
+    padding: 50px 50px 10px 50px;
 }
 
 #formulatext {
@@ -54,9 +53,22 @@ input {
     background-color: #fdfbfd;
     }
 
+.klauzula-bezieczenstwa {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
 footer {
     color: #e0d9da;
     background-color: #3f364b;
+    text-align: center;
+    min-height: 40px;
     padding: 10px;
-    text-align: right;
+}
+
+.logo-footer {
+    position: relative;
+    box-shadow: 0 0 5px #000;
+    height: 40px;
+    float: right;
 }
