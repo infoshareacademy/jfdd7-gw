@@ -8,8 +8,8 @@
 }
 header {
     position: fixed;
-    display:  flex;
-    justify-content: flex-end;
+    /*display:  flex;*/
+    /*justify-content: flex-end;*/
 
     top: 0;
     left: 0;
