@@ -13,6 +13,7 @@
     padding-top: 10px;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #funkcjeglownekontener {
@@ -29,9 +30,17 @@
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
-
+    text-shadow: 2px 2px 4px #000000;
     margin: 5px;
     padding-top: 20px;
+}
+
+.funkcjeglowne i {
+    /*text-shadow: 2px 2px 4px #000000;*/
+}
+
+.funkcjeglowne h3 {
+    /*text-shadow: 2px 2px 4px #000000;*/
 }
 
 .funkcjeglowne ol li {
@@ -40,20 +49,18 @@
 
 #funkcjerozszerzone {
     color: #3f364b;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
 #funkcjerozszerzone h2 {
     text-align: center;
+    text-shadow: 2px 2px 4px #a33a50;
+
 }
 
 #funkcjedodatkowe {
 
 }
-
-/*#kolumna {*/
-    /*float: left;*/
-    /*background-color: rgba(224, 217, 218, 1);*/
-/*}*/
 
 .kolumna {
 
@@ -69,28 +76,36 @@
     border-radius:20px;
     height: 150px;
     position: relative;
-    z-index: -100;
 }
 
-.funkcja>p {
+.funkcja > i {
+    color: rgba(163, 58, 80, 1);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.funkcja div {
     display: none;
-    background-color: rgba(224, 217, 218, 1);
+    background-color: rgba(163, 58, 80, 1);
     position: absolute;
     top: 0;
     right: 0;
     height: 150px;
-    vertical-align: middle;
+    width: 100%;
+    padding: 20px;
+    /*margin: 0 0 0 20px;*/
+    border-radius:20px;
+    color: #f7cfb5;
+    text-shadow: 2px 2px 4px #000000;
+
+
+
 
 }
 
-.funkcja>p:hover {
-    display: block;
-    background-color: rgba(224, 217, 218, 1);
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 150px;
-    vertical-align: middle;
+.funkcja:hover div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .floatleft{

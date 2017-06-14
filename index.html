@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/funkcjeglowne.css" type="text/css"/>
     <link rel="stylesheet" href="css/formularz.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/stylemenu.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -105,20 +106,17 @@
                 <div class="funkcja">
                     <i class="fa fa-university fa-5x"></i>
                     <h3>Funkcja skarbonki</h3>
-                    <p>Wyszukuje optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do
-                        ilości</p>
+                    <div>Płać najpierw sobie. Odkładaj pieniądze na realizację swoich celów</div>
                 </div>
                 <div class="funkcja">
                     <i class="fa fa-calculator fa-5x"></i>
                     <h3>Kalkulator walutowy</h3>
-                    <p>Wyszukuje optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do
-                        ilości</p>
+                    <div>Przeliczaj waluty, kupuj najtaniej i zarabiaj na różnicy kursów.</div>
                 </div>
                 <div class="funkcja">
                     <i class="fa fa-pie-chart fa-5x"></i>
                     <h3>Analiza wydatków</h3>
-                    <p>Wyszukuje optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do
-                        ilości</p>
+                    <div>Anlizuj swoje wydatki aby znaleźć obszary, które mogą przynieść oszczędności</div>
                 </div>
             </div>
         </div>
@@ -127,20 +125,18 @@
             <div class="funkcja">
                 <i class="fa fa-bullseye fa-5x"></i>
                 <h3>Ustalanie celów </h3>
-                <p>Wyszukuje optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do
-                    ilości</p>
+                <div>Ustal cele, które chcesz sfinasować, dzięki czemu wiesz z czym się mierzysz. </div>
             </div>
             <div class="funkcja">
                 <i class="fa fa-plus fa-5x"></i>
                 <h3>Znajdowanie oszczędności</h3>
-                <p>Wyszukuje optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do
-                    ilości</p>
+                <div>Znajdź obszary swoich wydatków, które pozwolą Ci zaleźć oszczędności</div>
             </div>
             <div class="funkcja">
                 <i class="fa fa-btc fa-5x"></i>
                 <h3>Porównywarka cen</h3>
-                <p>Wyszukuje optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do
-                    ilości</p>
+                <div>Porównuj ceny różnych opakowań produktu i znajduj najkorzystniejszy stosunek ceny do
+                    ilości</div>
             </div>
 
         </div>
@@ -154,26 +150,31 @@
         <h2>Zespół</h2>
 
         <div class="czlonkowie">
-            <img class="photo" src="img/bigstock-Code-32126648.jpg"/>
-            <h3>&#9827;Artur</h3>
-            <p>Przedstawienie osoby. </p>
+            <img class="photo" src="img/artur-wojciechowski.jpg"/>
+            <h3>Artur Wojciechowski</h3>
+            <p>Przedstawienie - kilka słów o sobie.</p>
+            <p>motto</p>
 
         </div>
         <div class="czlonkowie">
             <img class="photo" src="img/Join-our-Network-of-Coders.jpg"/>
-            <h3>&#9829; Piotr &#9829;</h3>
-            <p>Przedstawienie osoby. </p>
+            <h3>Piotr Michałek</h3>
+            <p>Przedstawienie - kilka słów o sobie.</p>
+            <p>motto</p>
 
         </div>
         <div class="czlonkowie">
             <img class="photo" src="img/caffee.jpg"/>
-            <h3>&#9830;Mateusz</h3>
-            <p>Przedstawienie osoby. </p>
+            <h3>Mateusz Tarsiński</h3>
+            <p>Opis</p>
+            <p>motto</p>
+
         </div>
         <div class="czlonkowie">
             <img class="photo" src="img/pexels-photo.jpg"/>
-            <h3>&#9824;Tomasz</h3>
-            <p>Przedstawienie osoby. </p>
+            <h3>Tomasz Moroz</h3>
+            <p>Przedstawienie - kilka słów o sobie.</p>
+            <p>motto</p>
         </div>
         <div class="clearboth"></div>
     </section>
@@ -181,28 +182,26 @@
     <section id="formularz">
         <div class="formula">
             <div id="formulatext">
-                Chcielibyśmy zaprezentować Państwu naszą aplikację.<br>
+                Chcielibyśmy już wkrótce zaprezentować Państwu naszą aplikację.<br>
                 <strong>Zainteresowani?</strong><br>
                 Prosimy o podanie nam swojego maila, a my odeślemy Państwu wiadomość z informacją o premierze. <br>
                 To całkowicie bezpieczne - dostaniesz od nas tylko jednego maila.
             </div>
 
-            <form>
+            <form action="">
                 <fieldset>
-                    E-mail:
-                    <input type="email" name="email" value="your@mail.com" size="30">
-                    <button type="button"
-                            onclick="alert('Dziekujemy za zainteresowanie! Na pewno Cie nie zawiedziemy.')">Zamów!
-                    </button>
+                    <label for="button-form" id="button-form">E-mail:</label>
+                    <input required id="email" type="email" size="30" name="email" placeholder="your@mail.com" autocomplete="on" autofocus />
+                    &#8658; <button class="button-form" style="vertical-align:middle"><span>Zamów!</span></button> &#8656;
                 </fieldset>
-
             </form>
 
         </div>
+
     </section>
 
-
 </main>
+
 <footer>Copyright &#169; 2017 - Grupa Wsparcia</footer>
 
 <!--TODO  -->
