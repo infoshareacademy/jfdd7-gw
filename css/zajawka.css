@@ -2,7 +2,7 @@
     background-color: #fff;
     background-image: url("img/zajawka-tlo.JPG");
     color: #fff;
-    min-height: 650px;
+    min-height: 700px;
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
@@ -10,11 +10,23 @@
     text-shadow: 0 0 20px #000;
     font-size: 2.2em;
     margin: 0px;
-    padding-top: 0%;
+    position: relative;
 }
 
-.zajawka h2, p {
-    position: relative;
+.zajawka h2 {
+    position: absolute;
     top: 250px;
+    left: 20%;
+    right: 20%;
+
+
+}
+
+.button-zajawka{
+    font-size: 1.6em;
+    padding: 2.6em 0;
     text-align: center;
+
+    background:
+rgba(163, 58, 80, 1);
 }
