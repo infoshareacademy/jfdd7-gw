@@ -1,60 +1,20 @@
-#zajawka{
-    background-image: url(img/zajawka_kol.JPG);
-    background-size: 100%;
-    background-position: 0%, 100%;
+.zajawka{
+    background-color: #fff;
+    background-image: url("img/zajawka-tlo.JPG");
+    color: #fff;
+    min-height: 650px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 100%;
+    text-shadow: 0 0 20px #000;
+    font-size: 2.2em;
+    margin: 0px;
+    padding-top: 0%;
+}
+
+.zajawka h2, p {
     position: relative;
-    margin-top:55px;
-}
-
-#zajawka_gora{
-    width: 100%;
-    font-size: 85px;
-    color: #a33a50;
+    top: 250px;
     text-align: center;
-    font-family: 'Caveat', cursive;
-    border-radius: 10px;
-    background-color: rgba(247, 207, 181, 0.4);
 }
-
-.zajawka_opis{
-    font-size: 30px;
-    color: #3f364b;
-    text-align: center;
-    border-radius: 10px;
-    font-family: 'Khula', sans-serif;
-    width: 40%;
-    margin-top: 30px;
-    margin-left: 60px;
-    float: left;
-}
-
-
-.button{
-
-    display: inline-block;
-    background-color: rgba(163, 58, 80, 1);
-    text-align: center;
-    text-decoration: none;
-    color: rgba(247, 207, 181, 1);
-     position: absolute;
-    right: 7%;
-    bottom: 8%;
-    font-family: "Maven Pro", sans-serif;
-    width: 15%;
-    font-size: 35px;
-    border-radius: 10px;
-    padding:10px;
-    margin: 2%;
-    float: right;
-}
- .clear{
-     clear: both;
- }
-
- #gorny{
-     width:100%;
-     height: 60px;
- }
-
