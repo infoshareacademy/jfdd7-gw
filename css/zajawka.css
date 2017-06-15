@@ -1,13 +1,13 @@
 .zajawka{
     background-color: #fff;
     background-image: url("img/zajawka-tlo.JPG");
-    color: #fff;
+    color: rgba(63, 54, 75, 1);
     min-height: 700px;
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    text-shadow: 0 0 20px #000;
+    text-shadow: 0 0 20px #fff;
     font-size: 2.2em;
     margin: 0px;
     position: relative;
@@ -18,6 +18,8 @@
     top: 250px;
     left: 20%;
     right: 20%;
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
 
 
 }
