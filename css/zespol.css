@@ -33,8 +33,13 @@
     width: 150px;
     height: 150px;
     border-radius: 100px;
+    filter: sepia(80%);
 }
 
 #przekierowania {
     color: white;
+}
+
+.fa-3x {
+    color: #3f364b;
 }
