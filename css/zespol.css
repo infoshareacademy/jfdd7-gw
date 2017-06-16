@@ -3,7 +3,7 @@
     height: 100%;
     width: 100%;
     border: none;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
 }
 .czlonkowie {
     width: 22%;
-    height: 300px;
+    height: 350px;
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
@@ -25,12 +25,21 @@
 }
 
 .czlonkowie:hover {
-    background-color: #f7cfb5;
+    background-color: #a33a50;
     color: white;
 }
 
 .photo {
-    width: 110px;
-    height: 50%;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
+    filter: sepia(80%);
+}
+
+#przekierowania {
+    color: white;
+}
+
+.fa-3x {
+    color: #3f364b;
 }
