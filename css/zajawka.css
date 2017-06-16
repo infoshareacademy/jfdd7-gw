@@ -1,6 +1,6 @@
 .zajawka{
     background-color: #fff;
-    background-image: url("img/zajawka-tlo.JPG");
+    background-image: url("img/zajawka-tlo-duze.jpg");
     color: rgba(63, 54, 75, 1);
     min-height: 700px;
     text-align: center;
@@ -20,8 +20,12 @@
     right: 20%;
     font-size: 3em;
     font-family: 'Kaushan Script', cursive;
+}
 
-
+.zajawka p{
+    position: absolute;
+    top: 150px;
+    left: 50px;
 }
 
 .button-zajawka{
