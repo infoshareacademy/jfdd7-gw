@@ -2,13 +2,15 @@
     background-image: url("https://c1.staticflickr.com/8/7693/17123251389_bed3c3a1ba_b.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 2000px;
+    background-size: 100%;
 }
 .formula {
     background-color: rgba(224, 217, 218, 0.7);
     text-align: center;
     color: #3f364b;
-    padding: 50px 50px 10px 50px;
+    padding: 100px 100px 50px 100px;
+
+
 }
 
 #formulatext {
@@ -35,7 +37,7 @@ fieldset {
     border: 2px solid;
     border-color: #3f364b;
     margin-top: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 20px;
@@ -53,7 +55,7 @@ input {
     background-color: #fdfbfd;
     }
 
-.klauzula-bezieczenstwa {
+.klauzula-bezpieczenstwa {
     margin-top: 20px;
     font-size: 10px;
 }
