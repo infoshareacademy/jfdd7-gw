@@ -1,17 +1,19 @@
 
 #funkcjepodstawowe {
     background-color: rgba(63, 54, 75, 1);
-    /*margin-left: -8px;*/
     height: 100%;
     width: 100%;
     border: none;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 #funkcjepodstawowe h2 {
     text-align: center;
     color: rgba(224, 217, 218, 1);
     padding-top: 10px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #funkcjeglownekontener {
@@ -20,17 +22,36 @@
 }
 
 .funkcjeglowne {
-    width: 24%;
-    min-width: 200px;
+    width: 23%;
+    min-width: 150px;
     height: 400px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0.5%;
+    padding-top: 1%;
+}
+@media screen and (min-width: 801px) and (max-width: 1201px) {
+    .funkcjeglowne {
+        width: 48%;
+    }
+}
 
-    margin: 0px 5px;
-    padding-top: 20px;
+@media screen and (max-width: 800px) {
+    .funkcjeglowne {
+        width: 100%;
+    }
+}
+
+.funkcjeglowne i {
+    /*text-shadow: 2px 2px 4px #000000;*/
+}
+
+.funkcjeglowne h3 {
+    /*text-shadow: 2px 2px 4px #000000;*/
 }
 
 .funkcjeglowne ol li {
@@ -39,26 +60,29 @@
 
 #funkcjerozszerzone {
     color: #3f364b;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
 #funkcjerozszerzone h2 {
     text-align: center;
+    text-shadow: 2px 2px 4px #a33a50;
+
 }
 
 #funkcjedodatkowe {
 
 }
 
-/*#kolumna {*/
-    /*float: left;*/
-    /*background-color: rgba(224, 217, 218, 1);*/
-/*}*/
-
 .kolumna {
 
     width: 50%;
     text-align: center;
     }
+@media screen and (max-width: 800px) {
+    .kolumna {
+        width: 100%;
+    }
+}
 
 .funkcja {
     background-color: rgba(224, 217, 218, 1);
@@ -67,6 +91,38 @@
     width: 60%;
     border-radius:20px;
     height: 150px;
+    position: relative;
+    box-shadow: 10px 10px 5px rgba(63, 54, 75, 0.8);
+}
+
+.funkcja > i {
+    color: rgba(163, 58, 80, 1);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.funkcja div {
+    display: none;
+    background-color: rgba(163, 58, 80, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 150px;
+    width: 100%;
+    padding: 20px 0;
+    /*margin: 0 0 0 20px;*/
+    border-radius:20px;
+    color: #f7cfb5;
+    text-shadow: 2px 2px 4px #000000;
+
+
+
+
+}
+
+.funkcja:hover div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .floatleft{

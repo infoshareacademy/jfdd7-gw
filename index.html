@@ -2,54 +2,60 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Kurs HTML</title>
+    <title>Coming Soon Page</title>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/funkcjeglowne.css" type="text/css"/>
     <link rel="stylesheet" href="css/formularz.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/stylemenu.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/zajawka.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Khula|Caveat|Maven+Pro|Trochut&amp;subset=latin-ext" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Bree+Serif|Exo|Kaushan+Script|Lobster|Vidaloka"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Maven+Pro|Trochut&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/zespol.css" type="text/css"/>
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 <body>
-<nav class="menu-main">
-    <ul>
-        <li><a href="#zajawka">Zajawka</a></li>
-        <li><a href="#funkcjepodstawowe">Funkcje podstawowe</a></li>
-        <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
-        <li><a href="#formularz">Formularz</a></li>
-        <li><a href="#zespol">Zespół</a></li>
-    </ul>
-    <div class="background"></div>
-
-</nav>
+<header>
+    <img class="logoHead" src="img/logo.png">
+    <nav class="menu-main">
+        <ul>
+            <li><a href="#zajawka">Zajawka</a></li>
+            <li><a href="#funkcjepodstawowe">Funkcje podstawowe</a></li>
+            <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
+            <li><a href="#formularz">Formularz</a></li>
+            <li><a href="#zespol">Zespół</a></li>
+        </ul>
+    </nav>
+</header>
 <main>
     <section id="zajawka">
-        <p>
-        <ul>
-            <li class="maly_tekst"> Zarządzaj swoim budżetem</li>
-            <li class="maly_tekst"> Oszczędzaj czas i pieniądze</li>
-        </ul>
-        <p id="duzy_tekst"> Aplikacja budżetowa NAZWA</p>
 
-        <a href="">
-            <div id="button_zajawka">Przejdz do formularza <br> zamówienia
+            <div id="gorny">
             </div>
-        </a>
-        <div id="zajawka_gora">Aplikacja budżetowa <span
-                style="font-family: 'Trochut', cursive; color: #3f364b"> GW1 </span></div>
-        <div class="zajawka_opis"><b>Zdobądź kontrolę nad swoimi finansami</b></div>
-        <div class="zajawka_opis" id="1"><b>Oszczędzaj czas i pieniądze</b></div>
-        <a href="#formularz" style="text-decoration: none">
-            <div id="button">Zamów teraz!</div>
-            <div class="clear"></div>
-        </a>
 
+           <div id="zajawka_gora">Aplikacja budżetowa <span
+                   style=" color: #3f364b"><b>GW1</b> </span>
+           </div>
+
+           <div class="zajawka_opis">
+               <p style="background-color: rgba(253, 251, 253, 0.3); padding: 1%; border-radius: 10px;"><b>Zdobądź kontrolę nad swoimi finansami</b></p>
+
+               <p style="background-color: rgba(253, 251, 253, 0.3); padding: 1%; border-radius: 10px;"><b>Oszczędzaj czas i pieniądze</b></p>
+               <br>
+           </div>
+
+
+           <a href="#formularz" class="button">
+             <b> Zamów teraz!</b>
+            <div class="clear"></div>
+           </a>
+            <div class="clear"></div>
     </section>
     <section id="funkcjepodstawowe">
         <h2>Funkcje Główne</h2>
@@ -89,41 +95,48 @@
             </div>
             <div class="clearboth"></div>
         </div>
+           <div class="clear"></div>
+       </section>
 
-    </section>
     <section id="funkcjerozszerzone">
         <h2>Funkcje rozszerzone</h2>
         <div class="funkcjedodatkowe">
             <div class="kolumna floatleft">
                 <!--pierwsza kolumna-->
                 <div class="funkcja">
+                    <i class="fa fa-university fa-5x"></i>
                     <h3>Funkcja skarbonki</h3>
-                    <p></p>
+                    <div>Płać najpierw sobie. Odkładaj pieniądze na realizację swoich celów</div>
                 </div>
                 <div class="funkcja">
+                    <i class="fa fa-calculator fa-5x"></i>
                     <h3>Kalkulator walutowy</h3>
-                    <p></p>
+                    <div>Przeliczaj waluty, kupuj najtaniej i zarabiaj na różnicy kursów.</div>
                 </div>
                 <div class="funkcja">
+                    <i class="fa fa-pie-chart fa-5x"></i>
                     <h3>Analiza wydatków</h3>
-                    <p></p>
+                    <div>Anlizuj swoje wydatki aby znaleźć obszary, które mogą przynieść oszczędności</div>
                 </div>
             </div>
         </div>
         <div class="kolumna floatleft">
             <!--druga kolumna-->
             <div class="funkcja">
-                <h3>Znajdowanie oszczędności</h3>
-                <p></p>
+                <i class="fa fa-bullseye fa-5x"></i>
+                <h3>Ustalanie celów </h3>
+                <div>Ustal cele, które chcesz sfinasować, dzięki czemu wiesz z czym się mierzysz. </div>
             </div>
             <div class="funkcja">
+                <i class="fa fa-plus fa-5x"></i>
                 <h3>Znajdowanie oszczędności</h3>
-                <p></p>
+                <div>Znajdź obszary swoich wydatków, które pozwolą Ci zaleźć oszczędności</div>
             </div>
             <div class="funkcja">
+                <i class="fa fa-btc fa-5x"></i>
                 <h3>Porównywarka cen</h3>
-                <p>Wyszukuje optymalnych cen danego produktu. / wyszukiwanie najkorzystniejszego stosunku ceny do
-                    ilości</p>
+                <div>Porównuj ceny różnych opakowań produktu i znajduj najkorzystniejszy stosunek ceny do
+                    ilości</div>
             </div>
 
         </div>
@@ -135,58 +148,73 @@
     <section id="zespol">
 
         <h2>Zespół</h2>
+        <!--Artur-->
+        <div class="czlonkowie">
+            <img class="photo" src="img/artur-wojciechowski.jpg"/>
+            <h3>Artur Wojciechowski</h3>
+            <p>Przedstawienie - kilka słów o sobie.</p>
+            <p>motto</p>
+            <a href="https://www.facebook.com/artur.wojciechowski10" class="fa fa-facebook-official fa-3x" aria-hidden="true"></a>
+            <a href="https://github.com/ProgramistaiJa" class="fa fa-github fa-3x" aria-hidden="true"></a>
+        </div>
+        <!--Piotr-->
+        <div class="czlonkowie">
+            <img class="photo" src="img/piotr-michalek.png"/>
+            <h3>Piotr Michałek</h3>
+            <p>Przedstawienie - kilka słów o sobie.</p>
+            <p>motto</p>
+            <a href="https://www.facebook.com/tomasz.moroz.79" class="fa fa-facebook-official fa-3x" aria-hidden="true"></a>
+            <a href="https://github.com/piotrmichalek89" class="fa fa-github fa-3x" aria-hidden="true"></a>
 
+        </div>
+        <!--Mateusz-->
         <div class="czlonkowie">
-            <img class="photo" src="img/bigstock-Code-32126648.jpg"/>
-            <h3>&#9827;Artur</h3>
-            <p>Przedstawienie osoby. </p>
+            <img class="photo" src="img/mateusz-tarsinski.jpg"/>
+            <h3>Mateusz Tarsiński</h3>
+            <p>Przedstawienie - kilka słów o sobie.</p>
+            <p>motto</p>
+            <a href="https://www.facebook.com/mateusz.tarsinski" class="fa fa-facebook-official fa-3x" aria-hidden="true"></a>
+            <a href="https://github.com/mTarsinski" class="fa fa-github fa-3x" aria-hidden="true"></a>
+        </div>
+        <!--Tomasz-->
+        <div class="czlonkowie">
+            <img class="photo" src="img/tomasz-moroz.jpg"/>
+            <h3>Tomasz Moroz</h3>
+            <p>Przedstawienie - kilka słów o sobie.</p>
+            <p>motto</p>
+            <a href="https://www.facebook.com/tomasz.moroz.79" class="fa fa-facebook-official fa-3x" aria-hidden="true"></a>
+            <a href="https://github.com/TomaszMoroz" class="fa fa-github fa-3x" aria-hidden="true"></a>
+        </div>
 
-        </div>
-        <div class="czlonkowie">
-            <img class="photo" src="img/Join-our-Network-of-Coders.jpg"/>
-            <h3>&#9829; Piotr &#9829;</h3>
-            <p>Przedstawienie osoby. </p>
-
-        </div>
-        <div class="czlonkowie">
-            <img class="photo" src="img/caffee.jpg"/>
-            <h3>&#9830;Mateusz</h3>
-            <p>Przedstawienie osoby. </p>
-        </div>
-        <div class="czlonkowie">
-            <img class="photo" src="img/pexels-photo.jpg"/>
-            <h3>&#9824;Tomasz</h3>
-            <p>Przedstawienie osoby. </p>
-        </div>
         <div class="clearboth"></div>
     </section>
 
     <section id="formularz">
         <div class="formula">
             <div id="formulatext">
-                Chcielibyśmy zaprezentować Państwu naszą aplikację.<br>
+                Chcielibyśmy już wkrótce zaprezentować Państwu naszą aplikację.<br>
                 <strong>Zainteresowani?</strong><br>
                 Prosimy o podanie nam swojego maila, a my odeślemy Państwu wiadomość z informacją o premierze. <br>
                 To całkowicie bezpieczne - dostaniesz od nas tylko jednego maila.
             </div>
 
-            <form>
+            <form action="">
                 <fieldset>
-                    E-mail:
-                    <input type="email" name="email" value="your@mail.com" size="30">
-                    <button type="button"
-                            onclick="alert('Dziekujemy za zainteresowanie! Na pewno Cie nie zawiedziemy.')">Zamów!
-                    </button>
+                    <label for="button-form" id="button-form">E-mail:</label>
+                    <input required id="email" type="email" size="30" name="email" placeholder="your@mail.com" autocomplete="on" autofocus />
+                    &#8658; <button class="button-form" style="vertical-align:middle"><span>Zamów!</span></button> &#8656;
                 </fieldset>
-
             </form>
-
+            <div class="klauzula-bezieczenstwa">Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 11 maja 2015 r. w sprawie trybu i sposobu reali</div>
         </div>
+
     </section>
 
-
 </main>
-<footer>Copyright &#169; 2017 - Grupa Wsparcia</footer>
+
+<footer>
+    <div class="footer-div">Copyright &#169; 2017 - Grupa Wsparcia<img class="logo-footer" src="img/logo.png"></div>
+</footer>
 
 <!--TODO  -->
 </body>

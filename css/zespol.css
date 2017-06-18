@@ -3,9 +3,8 @@
     height: 100%;
     width: 100%;
     border: none;
-    padding-bottom: 70px;
+    padding-bottom: 55px;
     text-align: center;
-
 }
 
 #zespol h2 {
@@ -15,18 +14,33 @@
 }
 .czlonkowie {
     width: 22%;
-    height: 300px;
-    /*float: left;*/
+    height: 370px;
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
     margin: 0px 5px;
     padding-top: 20px;
     display: inline-block;
+    border-radius: 20px;
+}
+
+.czlonkowie:hover {
+    background-color: #a33a50;
+    color: white;
 }
 
 .photo {
-    width: 80%;
-    height: 50%;
+    width: 150px;
+    height: 150px;
+    border: dotted 4px;
     border-radius: 100px;
+    filter: sepia(80%);
+}
+
+#przekierowania {
+    color: white;
+}
+
+.fa-3x {
+    color: #3f364b;
 }
