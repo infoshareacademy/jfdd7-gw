@@ -4,14 +4,24 @@
     width: 100%;
     border: none;
     padding-bottom: 55px;
+    padding-top: 30px;
     text-align: center;
 }
 
 #zespol h2 {
+    font-size: 2em;
     text-align: center;
     color: rgba(224, 217, 218, 1);
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
 }
+
+#zespol h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
 .czlonkowie {
     width: 22%;
     height: 370px;
@@ -19,7 +29,7 @@
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
     margin: 0px 5px;
-    padding-top: 20px;
+    padding-top: 40px;
     display: inline-block;
     border-radius: 20px;
 }
@@ -47,6 +57,7 @@
     border: dotted 4px;
     border-radius: 100px;
     filter: sepia(80%);
+    margin-bottom: 30px;
 }
 
 #przekierowania {
@@ -55,4 +66,5 @@
 
 .fa-3x {
     color: #3f364b;
+    margin-top: 35px;
 }
