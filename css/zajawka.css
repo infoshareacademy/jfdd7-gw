@@ -2,7 +2,7 @@
     background-color: #fff;
     background-image: url("img/nowe-tlo.JPG ");
     color: rgba(63, 54, 75, 1);
-    min-height: 700px;
+    min-height: 580px;
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
@@ -16,7 +16,7 @@
 
 .zajawka h2 {
     position: absolute;
-    top: 250px;
+    top: 180px;
     left: 20%;
     right: 20%;
     font-size: 3em;
@@ -32,21 +32,52 @@
 }
 
 #p1{
-    top: 520px;
-    left: 10px;
+    top: 420px;
+    left: 5px;
 }
 
 #p2{
-    top: 600px;
-    left: 10px;
+    top: 500px;
+    left: 5px;
 }
 
 .button-zajawka{
+    display: block;
     font-size: 1.2em;
-    padding: 2.3em 0;
+    padding: 1.8em 0;
     text-align: center;
     color: rgba(247, 207, 181, 1);
+    background: rgba(163, 58, 80, 1);
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    transition: background-color 2s;
 
-    background:
-rgba(163, 58, 80, 1);
+
+
 }
+
+.button-zajawka:hover{
+    color: rgba(247, 207, 181, 1);
+    background: rgba(63, 54, 75, 1);
+}
+
+.button-zajawka:before{
+    content: "";
+    height: 100%;
+    width: 20px;
+    display: block;
+    position: absolute;
+    top:0;
+    left: -70px;
+    transform: skewX(-45deg) translateX(0px);
+    transition: none;
+    background-color: rgba(247, 207, 181, 1);
+}
+
+.button-zajawka:hover:before{
+    transform: skewX(-45deg) translateX(3000px);
+    transition: all 2s ease-in;
+}
+
+
