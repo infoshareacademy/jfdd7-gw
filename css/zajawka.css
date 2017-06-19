@@ -80,4 +80,8 @@
     transition: all 2s ease-in;
 }
 
-
+@media screen and (max-width:800px){
+.zajawka h2{
+font-size:1.5em
+}
+}
