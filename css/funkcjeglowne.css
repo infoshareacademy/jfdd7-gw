@@ -10,9 +10,10 @@
 #funkcjepodstawowe h2 {
     text-align: center;
     color: rgba(224, 217, 218, 1);
-    padding-top: 10px;
+    padding: 20px 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+    font-size: 2em;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -49,10 +50,17 @@
 
 .funkcjeglowne i {
     /*text-shadow: 2px 2px 4px #000000;*/
+    padding: 15x;
 }
 
 .funkcjeglowne h3 {
     /*text-shadow: 2px 2px 4px #000000;*/
+    font-size: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.funkcjeglowne p {
+    padding-top: 20px;
 }
 
 .funkcjeglowne ol li {
@@ -67,6 +75,7 @@
 #funkcjerozszerzone h2 {
     text-align: center;
     text-shadow: 2px 2px 4px #a33a50;
+    font-size: 2em;
 
 }
 
@@ -99,6 +108,11 @@
 .funkcja > i {
     color: rgba(163, 58, 80, 1);
     text-shadow: 2px 2px 4px #000000;
+}
+.funkcja h3 {
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .funkcja div {
