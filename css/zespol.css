@@ -14,7 +14,7 @@
 }
 .czlonkowie {
     width: 22%;
-    height: 370px;
+    height: 300px;
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
@@ -23,6 +23,19 @@
     display: inline-block;
     border-radius: 20px;
 }
+
+@media screen and (min-width: 801px) and (max-width: 1201px) {
+    .czlonkowie {
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .czlonkowie {
+        width: 88%;
+    }
+}
+
 
 .czlonkowie:hover {
     background-color: #a33a50;

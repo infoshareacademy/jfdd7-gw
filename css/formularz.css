@@ -2,15 +2,14 @@
     background-image: url("https://c1.staticflickr.com/8/7693/17123251389_bed3c3a1ba_b.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
+
 .formula {
     background-color: rgba(224, 217, 218, 0.7);
     text-align: center;
     color: #3f364b;
     padding: 100px 100px 50px 100px;
-
-
 }
 
 #formulatext {
