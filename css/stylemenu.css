@@ -6,15 +6,6 @@
     height: 80px;
 
 }
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 22000;
-    background-color: rgba(63, 54, 75, 0.8);
-    max-height: 55px;
-}
 .menu-main {
     position: relative;
     text-align: center;
@@ -48,4 +39,21 @@ header {
 .menu-main li a:hover {
     transition: color 200ms ease;
     color: rgba(247, 207, 181, 1);
+}
+
+.navbar-default {
+    background-color:rgba(63, 54, 75, 0.8);
+    border-color:rgba(63, 54, 75, 0.8);
+}
+.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+@media screen and (max-width:767px) {
+    .navbar-brand>img {
+        max-height:50px;
+    }
+    .navbar-toggle.collapsed ~ .navbar-brand>img {
+        max-height:80px;
+    }
+
 }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikacja budżetowa - Coming Soon Page</title>
+    <title>Coming Soon Page</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css" type="text/css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" href="css/funkcjeglowne.css" type="text/css"/>
@@ -24,18 +26,32 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 </head>
 <body>
-<header>
-    <img class="logoHead" src="img/logo.png">
-    <nav class="menu-main">
-        <ul>
-            <li><a href="#zajawka">Zajawka</a></li>
-            <li><a href="#funkcjepodstawowe">Funkcje podstawowe</a></li>
-            <li><a href="#funkcjerozszerzone">Funkcje rozszerzone</a></li>
-            <li><a href="#formularz">Formularz</a></li>
-            <li><a href="#zespol">Zespół</a></li>
-        </ul>
-    </nav>
-</header>
+<img class="logoHead" src="img/logo.png">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="logoHead" src="img/logo.png"></a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">ZAJAWKA</a></li>
+                <li><a href="#">FUNKCJE</a></li>
+                <li><a href="#">FORMULARZ</a></li>
+                <li><a href="#">ZESPÓŁ</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <main>
     <section class="zajawka" id="zajawka">
         <h2>Aplikacja budżetowa <span style="color: rgba(163, 58, 80, 1);">GW1</span></h2>
@@ -214,5 +230,8 @@
 </footer>
 
 <!--TODO  -->
+
+<script src="bootstrap/jquery.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
