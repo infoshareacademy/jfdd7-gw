@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 #zespol h2 {
     font-size: 2em;
     text-align: center;
@@ -46,7 +52,7 @@
     }
 }
 
-.czlonkowie:hover {
+    e:hover {
     background-color: #a33a50;
     color: white;
 }
