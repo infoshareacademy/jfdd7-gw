@@ -30,7 +30,7 @@
 
 .czlonkowie {
     width: 22%;
-    height: 370px;
+    height: 440px;
     text-align: center;
     color: rgba(224, 217, 218, 1);
     background-color: rgba(224, 217, 218, 0.1);
@@ -52,7 +52,7 @@
     }
 }
 
-    e:hover {
+.czlonkowie:hover {
     background-color: #a33a50;
     color: white;
 }
