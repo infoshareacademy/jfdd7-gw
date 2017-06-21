@@ -5,17 +5,55 @@
     background-size: cover;
 }
 
-.formula {
-    background-color: rgba(224, 217, 218, 0.7);
+.formulaobrazektla {
+    background-color: rgba(224, 217, 218, 0.9);
     text-align: center;
     color: #3f364b;
     padding: 100px 100px 50px 100px;
 }
 
+.maskaobrazkatla {
+    border:1px dotted white;
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+
+.obrazekformularza {
+    width: 33.3333%;
+}
+
+.obrazekformularza img {
+    width: 100%;
+    max-width: 100%;
+}
+
 #formulatext {
-    background-color: rgba(224, 217, 218, 0.5);
+    width: 66.6666%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+#formulatext p {
+    font-size: 1.2em;
+    display: block;
+    color: rgba(63, 54, 75, 1);
+    text-shadow: 2px 2px 3px white;
+}
+
+#formulatext h1 {
+    font-size: 1.5em;
+    display: block;
+    color: rgba(63, 54, 75, 1);
+    text-shadow: 2px 2px 3px #a33a50;
+}
+
+#formulatext form {
+    width: 70%;
+    margin: auto;
 }
 
 .button-form {
@@ -35,13 +73,14 @@
 }
 
 fieldset {
-    border: 2px solid;
-    border-color: #3f364b;
+    /*border: 2px solid;*/
+    /*border-color: #3f364b;*/
     margin-top: 40px;
     margin-bottom: 30px;
     margin-right: 0px;
     margin-left: 0px;
     border-radius: 5px;
+    padding:40px;
 }
 
 form {
@@ -55,7 +94,7 @@ input {
     background-color: #fdfbfd;
     }
 
-.klauzula-bezpieczenstwa {
+#formulatext .klauzula-bezpieczenstwa {
     margin-top: 20px;
     font-size: 10px;
 }
