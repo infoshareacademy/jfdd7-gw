@@ -20,6 +20,12 @@
 
 }
 
+@media screen and (max-width: 800px){
+    .maskaobrazkatla {
+        display: block;
+    }
+}
+
 .obrazekformularza {
     width: 33.3333%;
 }
