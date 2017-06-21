@@ -20,19 +20,20 @@
 
 }
 
-@media screen and (max-width: 800px){
-    .maskaobrazkatla {
-        display: block;
-    }
-}
-
 .obrazekformularza {
     width: 33.3333%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
 }
 
 .obrazekformularza img {
     width: 100%;
     max-width: 100%;
+    box-shadow: 3px 3px 5px black;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
 }
 
 #formulatext {
@@ -41,6 +42,26 @@
     background-color: rgba(255, 255, 255, 0.5);
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .formulaobrazektla {
+        padding: 10px 10px;
+    }
+    .maskaobrazkatla {
+        display: block;
+        margin: auto;
+    }
+    .obrazekformularza {
+        width:100%;
+    }
+    .obrazekformularza img{
+        padding-left: 0;
+    }
+    #formulatext {
+        width: 100%;
+
+    }
 }
 
 #formulatext p {
@@ -52,6 +73,7 @@
 
 #formulatext h1 {
     font-size: 1.5em;
+    padding: 10px 0;
     display: block;
     color: rgba(63, 54, 75, 1);
     text-shadow: 2px 2px 3px #a33a50;
@@ -64,18 +86,20 @@
 
 .button-form {
     background-color: #a33a50;
+    text-shadow: 2px 2px 4px #3f364b;
     cursor: pointer;
-    font-size: larger;
-    border-radius: 12px;
+    font-size: medium;
+    border-radius: 5px;
     height: 30px;
     width: 100px;
     color: #fdfbfd;
+    text-transform: uppercase;
 }
 
 .button-form:hover {
     background-color: #3f364b;
     color: white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 3px #a33a50;
 }
 
 fieldset {
