@@ -138,10 +138,14 @@
     font-size: 1.2em;
 }
 
-.funkcja:hover div {
+.funkcja.animacja div {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.funkcja:hover{
+    cursor: pointer;
 }
 
 .floatleft{
