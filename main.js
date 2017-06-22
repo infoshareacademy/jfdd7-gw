@@ -1,14 +1,24 @@
+$(document).ready(function() {
+    $(window).scroll(function () {
+        var elem = $('.czlonkowie');
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
 
-$(window).scroll(function () {
-    var elem = $('.czlonkowie');
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
 
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
+        if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+            console.log('hello');
+            $(elem).find("img").addClass("animated shake")
+        }
+    });
+});
 
-    if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
-        console.log('hello');
-        $(elem).find("img").addClass("animated shake")
-    }
+
+
+$(document).ready(function(){
+    $('.funkcja').click(function() {
+        $('.animacja').not(this).removeClass('animacja');
+        $(this).toggleClass('animacja');
+    });
 });
