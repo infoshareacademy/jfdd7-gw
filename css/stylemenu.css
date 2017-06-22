@@ -51,9 +51,23 @@
 @media screen and (max-width:767px) {
     .navbar-brand>img {
         max-height:50px;
+
     }
     .navbar-toggle.collapsed ~ .navbar-brand>img {
         max-height:80px;
     }
 
 }
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color:white;
+}
+
