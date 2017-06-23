@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/formularz.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/stylemenu.css">
+    <link rel="stylesheet" href="css/game.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/zajawka.css" type="text/css">
@@ -237,7 +238,20 @@
                         <img src="img/aplikacja.jpg" alt="aplikacja">
                     </figure>
                 </div>
+            </div>
 
+            <form action="">
+                <fieldset>
+                    <label for="button-form" id="button-form">E-mail:</label>
+                    <input required id="email" type="email" size="30" name="email" placeholder="your@mail.com" autocomplete="on" autofocus />
+                    &#8658; <button class="button-form" style="vertical-align:middle"><span>Zamów!</span></button> &#8656;
+                </fieldset>
+            </form>
+            <div class="klauzula-bezieczenstwa">Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 11 maja 2015 r. w sprawie trybu i sposobu reali</div>
+
+            <div>
+                <table id="game-board"></table>
+            </div>
                 <div id="formulatext">
                     <p>Już wkrótce</p>
                     <p>zaprezentujemy ...</p>
@@ -272,5 +286,6 @@
 <script src="bootstrap/jquery.min.js"></script>
 <script src="bootstrap/bootstrap.min.js"></script>
 <script src="main.js"></script>
+<script src="game.js"></script>
 </body>
 </html>
