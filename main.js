@@ -8,13 +8,23 @@ $(document).ready(function() {
         var elemBottom = elemTop + $(elem).height();
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
-            console.log('hello');
-            $(elem).find("img").addClass("animated shake")
+            $(elem).find("img").addClass("animated bounce")
+        }
+    });
+
+    $(window).scroll(function () {
+        var elem = $('#funkcjepodstawowe');
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
+            $(elem).find("i").addClass("animated shake")
         }
     });
 });
-
-
 
 $(document).ready(function(){
     $('.funkcja').click(function() {

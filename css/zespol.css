@@ -95,7 +95,7 @@
     }
 }
 
-.shake {
+.bounce {
     animation-name: bounce;
     transform-origin: center bottom;
 }
