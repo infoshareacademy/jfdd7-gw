@@ -9,7 +9,10 @@ $(document).ready(function() {
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
             $(elem).find("img").addClass("animated bounce")
+        } else {
+            $(elem).find("img").removeClass("animated bounce")
         }
+
     });
 
     $(window).scroll(function () {
@@ -22,6 +25,8 @@ $(document).ready(function() {
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
             $(elem).find("i").addClass("animated shake")
+        } else {
+            $(elem).find("i").removeClass("animated shake")
         }
     });
 });
