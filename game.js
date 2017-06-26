@@ -1,6 +1,11 @@
 var gameBoard = document.querySelector('#game-board');
+var tablicaWynikow = document.querySelector('#tablica-wynikow')
 var size = 10;
 var tr, td;
+var wynik = 0;
+
+
+
 
 for (var i = 0; i < size; i += 1) {
     tr = document.createElement('tr');
@@ -12,12 +17,21 @@ for (var i = 0; i < size; i += 1) {
 }
 
 for (var i = 0; i < 10; i += 1) {
-    var target = gameBoard.querySelectorAll('td')[Math.floor(Math.random() * size * size)];
+    var emptyCells = gameBoard.querySelectorAll('td:not(.coin)');
+    console.log(emptyCells)
+    var target = emptyCells[Math.floor(Math.random() * emptyCells.length)];
     target.classList.add('coin')
 }
 
+
 gameBoard.addEventListener('click', function (event) {
     if (event.target.classList.contains('coin')) {
-        event.target.classList.remove('coin')
+            event.target.classList.remove('coin');
+            wynik += 1;
+        tablicaWynikow.innerText = wynik;
+
+
+
     }
 })
+
