@@ -29,9 +29,7 @@ $(document).ready(function() {
             $(elem).find("i").removeClass("animated shake")
         }
     });
-});
 
-$(document).ready(function(){
     $('.funkcja').click(function() {
         $('.animacja').not(this).removeClass('animacja');
         $(this).toggleClass('animacja');
