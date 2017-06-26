@@ -9,7 +9,10 @@ $(document).ready(function() {
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
             $(elem).find("img").addClass("animated bounce")
+        } else {
+            $(elem).find("img").removeClass("animated bounce")
         }
+
     });
 
     $(window).scroll(function () {
@@ -22,6 +25,8 @@ $(document).ready(function() {
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
             $(elem).find("i").addClass("animated shake")
+        } else {
+            $(elem).find("i").removeClass("animated shake")
         }
     });
 });
@@ -31,4 +36,20 @@ $(document).ready(function(){
         $('.animacja').not(this).removeClass('animacja');
         $(this).toggleClass('animacja');
     });
+});
+// window.addEventListener('scroll', function () {
+// var paralaksa = document.querySelector(".paralaksa");
+// var offset = window.scrollY;
+// paralaksa.style.backgroundPositionY = offset / 2 - 200 + 'px'
+// })
+$(window).scroll(function () {
+    var paralaksa = $(".paralaksa");
+    var offset = $(this).scrollTop();
+    paralaksa.css("background-position-y", offset / 2 - 200);
+});
+
+$(window).scroll(function () {
+    var paralaksa = $(".zajawka h2");
+    var offset = $(this).scrollTop();
+    paralaksa.css("top", 180 + offset / 4);
 });
