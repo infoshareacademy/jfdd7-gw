@@ -85,3 +85,13 @@
 font-size:1.5em
 }
 }
+
+.paralaksa2 {
+    background-image: url("img/work.jpg");
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
