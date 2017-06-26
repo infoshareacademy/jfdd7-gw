@@ -37,3 +37,19 @@ $(document).ready(function(){
         $(this).toggleClass('animacja');
     });
 });
+// window.addEventListener('scroll', function () {
+// var paralaksa = document.querySelector(".paralaksa");
+// var offset = window.scrollY;
+// paralaksa.style.backgroundPositionY = offset / 2 - 200 + 'px'
+// })
+$(window).scroll(function () {
+    var paralaksa = $(".paralaksa");
+    var offset = $(this).scrollTop();
+    paralaksa.css("background-position-y", offset / 2 - 200);
+});
+
+$(window).scroll(function () {
+    var paralaksa = $(".zajawka h2");
+    var offset = $(this).scrollTop();
+    paralaksa.css("top", 180 + offset / 4);
+});
