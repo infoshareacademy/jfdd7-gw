@@ -17,7 +17,9 @@ for (var i = 0; i < size; i += 1) {
 }
 
 for (var i = 0; i < 10; i += 1) {
-    var target = gameBoard.querySelectorAll('td')[Math.floor(Math.random() * size * size)];
+    var emptyCells = gameBoard.querySelectorAll('td:not(.coin)');
+    console.log(emptyCells)
+    var target = emptyCells[Math.floor(Math.random() * emptyCells.length)];
     target.classList.add('coin')
 }
 
@@ -26,13 +28,8 @@ gameBoard.addEventListener('click', function (event) {
     if (event.target.classList.contains('coin')) {
             event.target.classList.remove('coin');
             wynik += 1;
-             var score = [];
-            score.push(wynik);
-             var textWynik = document.createTextNode(score[score.length - 1]);
-             tablicaWynikow.appendChild(textWynik);
-                 if (tablicaWynikow.childElementCount > 2){
-                     tablicaWynikow.removeChild(tablicaWynikow.childNodes[0]);
-        }
+        tablicaWynikow.innerText = wynik;
+
 
 
     }
