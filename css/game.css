@@ -4,8 +4,18 @@
 #game-board {
     width: 400px;
     height: 400px;
+    background-color: #fdfbfd;
 }
 
 #game-board .coin {
     background: gold;
+}
+
+#tablica-wynikow{
+    width: 100px;
+    height: 70px;
+    font-size: 2em;
+    color: #000;
+    background-color: #66afe9;
+
 }

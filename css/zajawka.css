@@ -51,7 +51,7 @@
     overflow: hidden;
     text-decoration: none;
     position: relative;
-    transition: background-color 2s;
+    transition: background-color 1.5s;
 
 
 
@@ -60,6 +60,7 @@
 .button-zajawka:hover{
     color: rgba(247, 207, 181, 1);
     background: rgba(63, 54, 75, 1);
+
 }
 
 .button-zajawka:before{
@@ -75,9 +76,10 @@
     background-color: rgba(247, 207, 181, 1);
 }
 
+
 .button-zajawka:hover:before{
     transform: skewX(-45deg) translateX(3000px);
-    transition: all 2s ease-in;
+    transition: all 1.5s ease-in;
 }
 
 @media screen and (max-width:800px){
