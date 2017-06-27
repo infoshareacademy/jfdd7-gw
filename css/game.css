@@ -8,7 +8,10 @@
 }
 
 #game-board .coin {
-    background: gold;
+    background-color: gold;
+    background: url("../img/dolar.gif");
+    background-size: 25px;
+    background-repeat: no-repeat;
 }
 
 #tablica-wynikow{
