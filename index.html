@@ -238,20 +238,37 @@
                         <img src="img/aplikacja.jpg" alt="aplikacja">
                     </figure>
                 </div>
+                <div id="formulatext">
+                    <p>Już wkrótce</p>
+                    <p>zaprezentujemy ...</p>
+                    <h1>Alikację budżetową</h1>
+                    <p>Podaj swój e-mail,</p>
+                    <p>to poinformujemy Cię</p>
+                    <p> o premierze. </p>
+
+
+                    <form action="">
+                        <fieldset>
+                            <label for="button-form" id="button-form">E-mail:</label>
+                            <input required id="email" type="email" size="30" name="email" placeholder="your@mail.com" autocomplete="on" />
+                            <button class="button-form" style="vertical-align:middle"><span>Zamów</span></button>
+                        </fieldset>
+                    </form>
+                    <div class="klauzula-bezpieczenstwa">
+                        Wyślemy Ci tylko jeden e-mail.<br />
+                        Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 11 maja 2015 r. w sprawie trybu i sposobu realizacji zadań w celu zapewniania przestrzegania przepisów o ochronie danych osobowych przez administratora bezpieczeństwa informacji.
+                    </div>
+
+
+                </div>
             </div>
+        </div>
+    </section>
+    <section id="gra">
+        <div>
+            <table id="game-board"></table>
+            <div id="tablica-wynikow">
 
-            <form action="">
-                <fieldset>
-                    <label for="button-form" id="button-form">E-mail:</label>
-                    <input required id="email" type="email" size="30" name="email" placeholder="your@mail.com" autocomplete="on" />
-                    &#8658; <button class="button-form" style="vertical-align:middle"><span>Zamów!</span></button> &#8656;
-                </fieldset>
-            </form>
-            <div class="klauzula-bezieczenstwa">Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 11 maja 2015 r. w sprawie trybu i sposobu reali</div>
-
-            <div>
-                <table id="game-board"></table>
-                <div id="tablica-wynikow">
             </div>
         </div>
 
@@ -260,10 +277,12 @@
 </main>
 
 <footer>
-    <div class="footer-div">Copyright &#169; 2017 - Grupa Wsparcia<img class="logo-footer" src="img/logo.png"></div>
+    <div class="footer-div">
+        Copyright &#169; 2017 - Grupa Wsparcia
+        <img class="logo-footer" src="img/logo.png">
+    </div>
 </footer>
 
-<!--TODO  -->
 
 <script src="bootstrap/jquery.min.js"></script>
 <script src="bootstrap/bootstrap.min.js"></script>
