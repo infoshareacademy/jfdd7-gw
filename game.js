@@ -33,5 +33,20 @@ gameBoard.addEventListener('click', function (event) {
 
 
     }
-})
+});
 
+//
+// $(document).ready(function() {
+//     var $scoreBoard = $('#tablica-wynikow');
+//
+//     $('#game-board td.coin').click(function() {
+//         $(this).removeClass('coin');
+//         $scoreBoard.text(wynik += 1);
+//     })
+// });
+
+$('#orderForm').submit(function(event){
+    event.preventDefault();
+    $('#game').show();
+
+});
