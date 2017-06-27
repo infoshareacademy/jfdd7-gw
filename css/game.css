@@ -1,5 +1,5 @@
 #game-board td {
-    border: 1px solid #000;
+    border: 1px solid #3f364b;
 }
 
 #game-board {
@@ -13,18 +13,34 @@
     height: 100vh;
 }
 
+#gamediv {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gamedivcenter {
+    align-self: center;
+}
+
+
+
 #game-board .coin {
     background-color: gold;
     background: url("../img/dolar.gif");
     background-size: 25px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #tablica-wynikow {
     width: 100px;
     height: 70px;
     font-size: 2em;
-    color: #000;
-    background-color: #66afe9;
+    color: #e0d9da;
+    background-color: #3f364b;
+    padding-top: 15px;
+    padding-left: 35px;
 
 }
