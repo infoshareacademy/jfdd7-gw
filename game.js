@@ -48,5 +48,10 @@ gameBoard.addEventListener('click', function (event) {
 $('#orderForm').submit(function(event){
     event.preventDefault();
     $('#game').show();
+    $('#formularz').hide();
+
+    $('html,body').animate({
+            scrollTop: $("#game").offset().top
+        }, 'slow');
 
 });
