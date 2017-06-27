@@ -8,9 +8,9 @@ $(document).ready(function() {
         var elemBottom = elemTop + $(elem).height();
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
-            $(elem).find("img").addClass("animated bounce")
+            $(elem).find("img").addClass("animated fadeIn")
         } else {
-            $(elem).find("img").removeClass("animated bounce")
+            $(elem).find("img").removeClass("animated fadeIn")
         }
 
     });
