@@ -1,17 +1,22 @@
 #game-board td {
     border: 1px solid #000;
 }
+
 #game-board {
     width: 400px;
     height: 400px;
     background-color: #fdfbfd;
 }
 
+#game {
+    display: none;
+}
+
 #game-board .coin {
     background: gold;
 }
 
-#tablica-wynikow{
+#tablica-wynikow {
     width: 100px;
     height: 70px;
     font-size: 2em;
