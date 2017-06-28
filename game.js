@@ -30,7 +30,6 @@ $('#play').click(function () {
     }, 1000);
     //zdefiniowanie funkcji obslugujacej klikniecie
     handleClick = function (event) {
-        console.log('klik');
         if (event.target.classList.contains('coin')) {
             event.target.classList.remove('coin');
             wynik += 1;
