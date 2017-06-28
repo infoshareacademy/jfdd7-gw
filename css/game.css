@@ -16,6 +16,7 @@
 #game {
     display: none;
     height: 100vh;
+    background-color: #e0d9da;
 }
 
 #gamediv {
@@ -23,13 +24,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 #gamedivcenter {
     align-self: center;
+    display: inline-block;
+
 }
 
+#gameinstruction {
+    background-color: #3f364b;
+    color: white;
+    width: 400px;
+    height: 400px;
+    font-size: 1.8em;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
+#gameinstruction > p {
+    padding: 5px;
+}
 
 #game-board .coin {
     background-color: gold;
