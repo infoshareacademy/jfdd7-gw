@@ -46,7 +46,6 @@
 
 #gameinstruction > p:first-child {
     text-align: center;
-    text
 }
 
 #gameinstruction > p:last-child {
@@ -72,7 +71,7 @@
     color: #e0d9da;
     background-color: #3f364b;
     padding-top: 15px;
-    padding-left: 35px;
+    /*padding-left: 35px;*/
     box-sizing: border-box;
 
 }
