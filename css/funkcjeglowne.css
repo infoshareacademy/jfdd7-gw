@@ -41,6 +41,37 @@
     animation-name: rubberBand;
 }
 
+@keyframes flipInY {
+    from {
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+
+    to {
+        transform: perspective(400px);
+    }
+}
+
+.flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    animation-name: flipInY;
+}
 #funkcjepodstawowe h2 {
     text-align: center;
     color: rgba(224, 217, 218, 1);
@@ -86,7 +117,7 @@
 
 .funkcjeglowne i {
     /*text-shadow: 2px 2px 4px #000000;*/
-    padding: 15x;
+    padding: 15px;
 }
 
 .funkcjeglowne h3 {
@@ -137,14 +168,16 @@
     padding: 20px;
     width: 60%;
     border-radius:20px;
-    height: 150px;
+    height: 170px;
     position: relative;
     box-shadow: 10px 10px 5px rgba(63, 54, 75, 0.8);
+
 }
 
 .funkcja > i {
     color: rgba(163, 58, 80, 1);
     text-shadow: 2px 2px 4px #000000;
+
 }
 .funkcja h3 {
     font-size: 1.5em;
@@ -176,8 +209,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 170px;
 
 }
+
 .funkcja:hover{
     cursor: pointer;
 }
