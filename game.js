@@ -5,6 +5,7 @@ var tr, td;
 var intervalId;
 var handleClick;
 
+
 $('#play').click(function () {
     //czyszczenie planszy po poprzedniej grze
     clearInterval(intervalId);
@@ -47,6 +48,8 @@ function creatBoard() {
         tr = document.createElement('tr');
         for (var j = 0; j < size; j += 1) {
             td = document.createElement('td');
+            td.setAttribute('data-x', j);
+            td.setAttribute('data-y', i);
             tr.appendChild(td)
         }
         gameBoard.appendChild(tr)
@@ -57,7 +60,11 @@ function creatBoard() {
         var target = emptyCells[Math.floor(Math.random() * emptyCells.length)];
         target.classList.add('coin')
     }
+    var pacMan = $('[data-x="0"][data-y="0"]', gameBoard);
+    pacMan.addClass('pacman');
+    pacMan.onkeydown()
 }
+
 
 //
 // $(document).ready(function() {

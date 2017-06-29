@@ -46,7 +46,6 @@
 
 #gameinstruction > p:first-child {
     text-align: center;
-    text
 }
 
 #gameinstruction > p:last-child {
@@ -86,4 +85,9 @@
     padding-left: 35px;
     box-sizing: border-box;
 
+}
+
+.pacman{
+    background-color: yellow;
+    border-radius: 50%;
 }
