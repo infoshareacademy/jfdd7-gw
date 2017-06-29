@@ -249,9 +249,9 @@
 
                     <form id="orderForm">
                         <fieldset>
-                            <label for="button-form" id="button-form">E-mail:</label>
-                            <input required id="email" type="email" size="30" name="email" placeholder="your@mail.com" autocomplete="on" />
-                            <button class="button-form" style="vertical-align:middle"><span>Zamów</span></button>
+                            <label for="button-form" id="button-form">Twój e-mail:</label>
+                            <br /><input required id="email" type="email" size="30" name="email" placeholder="your@mail.com" autocomplete="on" /><br />
+                            <button class="button-form"><span>Powiadom Mnie</span></button>
                         </fieldset>
                     </form>
                     <div class="klauzula-bezpieczenstwa">
@@ -265,19 +265,20 @@
         </div>
     </section>
     <section id="game">
-        <div id="gamediv">
-            <div id="gamedivcenter">
-                <div id="gameinstruction">
+        <div id="gamediv" class="container">
+            <div id="gamedivcenter" class="row">
+                <div id="gameinstruction" class="col-lg-6">
                     <p>Witaj Sknerusie.</p>
                     <p>Sprawdź swoją determinację w zdobywaniu majątku.</p>
                     <p>Najedź myszą na <img src="img/dolar.gif" height="25px" alt=""> i kliknij lewym przyciskiem myszy.</p>
                     <p>Stan twojego konta, poniżej planszy, zwiększy o 1$.</p>
-                    <button id="play">Start Game</button>
-
+                    <p><button id="play">Start Game</button></p>
                 </div>
-                <table id="game-board"></table>
-                <div id="tablica-wynikow"></div>
-                <div id="timer"></div>
+                <table id="game-board" class="col-lg-6"></table>
+                <div class="row">
+                    <div id="tablica-wynikow" class="col-xs-6"></div>
+                    <div id="timer" class="col-ws-6"></div>
+                </div>
             </div>
         </div>
     </section>
