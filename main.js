@@ -36,6 +36,10 @@ $(document).ready(function() {
         $('.animacja').not(this).removeClass('animacja');
         $(this).toggleClass('animacja');
     });
+    $('.funkcja').click(function() {
+        $('.flipInY').not(this).removeClass('flipInY animated');
+        $(this).toggleClass('flipInY animated');
+    });
 });
 // window.addEventListener('scroll', function () {
 // var paralaksa = document.querySelector(".paralaksa");
@@ -53,3 +57,4 @@ $(window).scroll(function () {
     var offset = $(this).scrollTop();
     paralaksa.css("top", 180 + offset / 4);
 });
+

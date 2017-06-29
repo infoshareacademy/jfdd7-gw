@@ -91,7 +91,7 @@
     font-size: medium;
     border-radius: 5px;
     height: 30px;
-    width: 100px;
+    width: 180px;
     color: #fdfbfd;
     text-transform: uppercase;
 }
@@ -100,6 +100,7 @@
     background-color: #3f364b;
     color: white;
     box-shadow: 2px 2px 3px #a33a50;
+    vertical-align:middle
 }
 
 fieldset {
@@ -119,10 +120,13 @@ form {
     background-color: #e0d9da;
 }
 
-input {
+input#email {
     border: 2px solid white;
     border-radius: 4px;
     background-color: #fdfbfd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
     }
 
 .klauzula-bezpieczenstwa {

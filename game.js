@@ -10,9 +10,9 @@ $('#play').click(function () {
     clearInterval(intervalId);
     gameBoard.removeEventListener('click', handleClick);
     var wynik = 0;
-    tablicaWynikow.innerText = wynik;
+    tablicaWynikow.innerText = 'Wynik: ' +  wynik;
     var timeCountdown = 10;
-    $('#timer').text(timeCountdown);
+    $('#timer').text('Czas: ' + timeCountdown);
     creatBoard();
     //ustawienie interwalu dla zegara
     intervalId = setInterval(function () {
@@ -24,7 +24,7 @@ $('#play').click(function () {
 
         }
         timeCountdown -= 1;
-        $('#timer').text(timeCountdown);
+        $('#timer').text('Czas: ' + timeCountdown);
 
 
     }, 1000);
@@ -33,7 +33,7 @@ $('#play').click(function () {
         if (event.target.classList.contains('coin')) {
             event.target.classList.remove('coin');
             wynik += 1;
-            tablicaWynikow.innerText = wynik;
+            tablicaWynikow.innerText = 'Wynik: ' + wynik;
         }
     };
     //zarejestrowanie funkcji na klikniecie
