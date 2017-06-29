@@ -8,9 +8,9 @@ $(document).ready(function() {
         var elemBottom = elemTop + $(elem).height();
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
-            $(elem).find("img").addClass("animated fadeIn")
+            $(elem).find("img").addClass("animated zoomIn")
         } else {
-            $(elem).find("img").removeClass("animated fadeIn")
+            $(elem).find("img").removeClass("animated zoomIn")
         }
 
     });
@@ -24,9 +24,9 @@ $(document).ready(function() {
         var elemBottom = elemTop + $(elem).height();
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
-            $(elem).find("i").addClass("animated shake")
+            $(elem).find("i").addClass("animated rubberBand")
         } else {
-            $(elem).find("i").removeClass("animated shake")
+            $(elem).find("i").removeClass("animated rubberBand")
         }
     });
 
