@@ -41,6 +41,23 @@
     animation-name: rubberBand;
 }
 
+.effect0 {
+    animation-delay: 0s;
+}
+
+.effect1 {
+    animation-delay: 1s;
+}
+
+.effect2 {
+    animation-delay: 2s;
+}
+
+.effect3 {
+    animation-delay: 3s;
+}
+
+
 #funkcjepodstawowe h2 {
     text-align: center;
     color: rgba(224, 217, 218, 1);
