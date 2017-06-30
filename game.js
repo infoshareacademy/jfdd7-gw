@@ -5,7 +5,7 @@ var tr, td;
 var intervalId;
 var handleClick;
 
-$('#play').click(function () {
+$('.play').click(function () {
     //czyszczenie planszy po poprzedniej grze
     clearInterval(intervalId);
     gameBoard.removeEventListener('click', handleClick);
@@ -22,6 +22,10 @@ $('#play').click(function () {
             gameBoard.removeEventListener('click', handleClick);
             $('#gameinstruction').hide();
             $('#gamefinish').show();
+            // if(wynik === 10) {
+            //     $gamefinish = $('#gamefinish').html( "<p>All new content. <em>You bet!</em></p>";
+            //     $gamefinish.show();
+            // }
             return
 
         }
