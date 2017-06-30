@@ -8,6 +8,29 @@
     text-align: center;
 }
 
+.photo:hover {
+    cursor: auto;
+    height: auto;
+    max-height: 350px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: -80px;
+}
+
+.czlonkowie:hover {
+    background-color: #a33a50;
+    /*color: white;*/
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border: dotted 4px;
+    border-radius: 100px;
+    filter: sepia(80%);
+    margin-bottom: 30px;
+}
+
 .team {
     display: flex;
     justify-content: center;
@@ -65,24 +88,12 @@
 @media screen and (max-width: 800px) {
     .czlonkowie {
         width: 48%;
+        margin-top: 10px;
     }
-}
-
-.czlonkowie:hover {
-    background-color: #a33a50;
-    /*color: white;*/
-}
-
-.photo {
-    width: 150px;
-    height: 150px;
-    border: dotted 4px;
-    border-radius: 100px;
-    filter: sepia(80%);
-    margin-bottom: 30px;
 }
 
 .fa-3x {
     color: #e0d9da;
     margin-top: 35px;
 }
+
