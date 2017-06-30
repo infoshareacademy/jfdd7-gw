@@ -24,7 +24,9 @@ $(document).ready(function() {
         var elemBottom = elemTop + $(elem).height();
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
-            $(elem).find("i").addClass("animated rubberBand")
+            $(elem).find("i").each(function(index) {
+                $(this).addClass("animated rubberBand").addClass('effect' + index)
+            })
         } else {
             $(elem).find("i").removeClass("animated rubberBand")
         }
