@@ -21,11 +21,17 @@ $('.play').click(function () {
             clearInterval(intervalId);
             gameBoard.removeEventListener('click', handleClick);
             $('#gameinstruction').hide();
-            $('#gamefinish').show();
-            // if(wynik === 10) {
-            //     $gamefinish = $('#gamefinish').html( "<p>All new content. <em>You bet!</em></p>";
-            //     $gamefinish.show();
-            // }
+            $('#gamefinish').hide();
+            $('#playagain').hide();
+            // $('#gamefinish').show();
+            if(wynik === 10) {
+                console.log('wynik 10');
+                $('#gamefinish').show();
+            }
+            if(timeCountdown === 0) {
+                console.log('czas 0');
+                $('#playagain').show();
+            }
             return
 
         }
