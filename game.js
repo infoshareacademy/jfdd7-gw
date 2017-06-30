@@ -20,6 +20,8 @@ $('#play').click(function () {
             //zakonczenie gry czas/wynik
             clearInterval(intervalId);
             gameBoard.removeEventListener('click', handleClick);
+            $('#gameinstruction').hide();
+            $('#gamefinish').show();
             return
 
         }
