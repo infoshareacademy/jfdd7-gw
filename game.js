@@ -60,10 +60,25 @@ function creatBoard() {
         var target = emptyCells[Math.floor(Math.random() * emptyCells.length)];
         target.classList.add('coin')
     }
-    var pacMan = $('[data-x="0"][data-y="0"]', gameBoard);
+    var pacX =0;
+    var pacY =0;
+    var pacMan = $('[data-x=" ' + pacX + ' "][data-y=" ' + pacY +' "]', gameBoard);
     pacMan.addClass('pacman');
-    pacMan.onkeydown()
+
+    // var pacX =0;
+    // var pacY =0;
+    // var pacMan = $('[data-x="0"][data-y="0"]', gameBoard);
+    // pacMan.addClass('pacman');
+
+
 }
+
+// pacmanInterval = setInterval(function(){
+//     var pacX = 0;
+//     var pacY = 0;
+//     var pacMan = $("#game-board").find("td[data-x=pacX][data-y=pacY]").addClass('pacman');
+//     })
+// }, 100)
 
 
 //
