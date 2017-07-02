@@ -48,7 +48,7 @@ $(document).ready(function() {
     //
     // });
     $(document).ready(function () {
-        $('a').click(function (event) {
+        $('a.menuTop').click(function (event) {
             event.preventDefault();
             var hash =$(this).attr('href');
             $('html, body').animate({
