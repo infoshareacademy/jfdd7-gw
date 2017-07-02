@@ -40,6 +40,22 @@ $(document).ready(function() {
         $('.flipInY').not(this).removeClass('flipInY animated');
         $(this).toggleClass('flipInY animated');
     });
+
+    // $('a').click(function () {
+    //     $('html,body').animate({
+    //         scrollTop: $(this).attr('href').offset().top
+    //     }, 'slow');
+    //
+    // });
+    $(document).ready(function () {
+        $('a.menuTop').click(function (event) {
+            event.preventDefault();
+            var hash =$(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top - 50
+            }, 600);
+        });
+    });
 });
 // window.addEventListener('scroll', function () {
 // var paralaksa = document.querySelector(".paralaksa");
