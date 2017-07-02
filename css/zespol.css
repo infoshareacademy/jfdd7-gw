@@ -8,6 +8,29 @@
     text-align: center;
 }
 
+.photo:hover {
+    cursor: auto;
+    height: auto;
+    max-height: 350px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: -80px;
+}
+
+.czlonkowie:hover {
+    background-color: #a33a50;
+    /*color: white;*/
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border: dotted 4px;
+    border-radius: 100px;
+    filter: sepia(80%);
+    margin-bottom: 30px;
+}
+
 .team {
     display: flex;
     justify-content: center;
@@ -40,26 +63,6 @@
     border-radius: 20px;
 }
 
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-
-.animated.infinite {
-    animation-iteration-count: infinite;
-}
-
-.animated.hinge {
-    animation-duration: 2s;
-}
-
-.animated.flipOutX,
-.animated.flipOutY,
-.animated.bounceIn,
-.animated.bounceOut {
-    animation-duration: .75s;
-}
-
 @keyframes zoomIn {
     from {
         opacity: 0;
@@ -85,28 +88,12 @@
 @media screen and (max-width: 800px) {
     .czlonkowie {
         width: 48%;
+        margin-top: 10px;
     }
 }
 
-.czlonkowie:hover {
-    background-color: #a33a50;
-    color: white;
-}
-
-.photo {
-    width: 150px;
-    height: 150px;
-    border: dotted 4px;
-    border-radius: 100px;
-    filter: sepia(80%);
-    margin-bottom: 30px;
-}
-
-#przekierowania {
-    color: white;
-}
-
 .fa-3x {
-    color: #3f364b;
+    color: #e0d9da;
     margin-top: 35px;
 }
+

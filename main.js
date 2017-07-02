@@ -24,7 +24,9 @@ $(document).ready(function() {
         var elemBottom = elemTop + $(elem).height();
 
         if ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) {
-            $(elem).find("i").addClass("animated rubberBand")
+            $(elem).find("i").each(function(index) {
+                $(this).addClass("animated rubberBand").addClass('effect' + index)
+            })
         } else {
             $(elem).find("i").removeClass("animated rubberBand")
         }
@@ -33,6 +35,10 @@ $(document).ready(function() {
     $('.funkcja').click(function() {
         $('.animacja').not(this).removeClass('animacja');
         $(this).toggleClass('animacja');
+    });
+    $('.funkcja').click(function() {
+        $('.flipInY').not(this).removeClass('flipInY animated');
+        $(this).toggleClass('flipInY animated');
     });
 });
 // window.addEventListener('scroll', function () {
@@ -51,3 +57,4 @@ $(window).scroll(function () {
     var offset = $(this).scrollTop();
     paralaksa.css("top", 180 + offset / 4);
 });
+
