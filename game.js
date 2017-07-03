@@ -5,7 +5,7 @@ var tr, td;
 var intervalId;
 var handleClick;
 
-$('#play').click(function () {
+$('.play').click(function () {
     //czyszczenie planszy po poprzedniej grze
     clearInterval(intervalId);
     gameBoard.removeEventListener('click', handleClick);
@@ -20,6 +20,18 @@ $('#play').click(function () {
             //zakonczenie gry czas/wynik
             clearInterval(intervalId);
             gameBoard.removeEventListener('click', handleClick);
+            $('#gameinstruction').hide();
+            $('#gamefinish').hide();
+            $('#playagain').hide();
+            // $('#gamefinish').show();
+            if(wynik === 10) {
+                console.log('wynik 10');
+                $('#gamefinish').show();
+            }
+            if(timeCountdown === 0) {
+                console.log('czas 0');
+                $('#playagain').show();
+            }
             return
 
         }
