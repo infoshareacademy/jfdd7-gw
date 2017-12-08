@@ -1,12 +1,12 @@
 
-#funkcjepodstawowe {
+/* #funkcjepodstawowe {
     background-color: rgba(63, 54, 75, 1);
     height: 100%;
     width: 100%;
     border: none;
     padding-bottom: 50px;
-}
-
+} */
+/* 
 @keyframes rubberBand {
     from {
         transform: scale3d(1, 1, 1);
@@ -39,7 +39,7 @@
 
 .rubberBand {
     animation-name: rubberBand;
-}
+} */
 @keyframes flipInY {
     from {
         transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
@@ -71,7 +71,7 @@
     backface-visibility: visible !important;
     animation-name: flipInY;
 }
-.effect0 {
+/* .effect0 {
     animation-delay: 0s;
 }
 
@@ -85,10 +85,10 @@
 
 .effect3 {
     animation-delay: 3s;
-}
+} */
 
 
-#funkcjepodstawowe h2 {
+/* #funkcjepodstawowe h2 {
     text-align: center;
     color: rgba(224, 217, 218, 1);
     padding: 20px 0;
@@ -97,9 +97,9 @@
     font-size: 2em;
     text-shadow: 2px 2px 4px #000000;
     padding-top: 50px;
-}
+} */
 
-#funkcjeglownekontener {
+/* #funkcjeglownekontener {
     margin: auto;
     text-align: center;
     z-index:1;
@@ -118,7 +118,7 @@
     margin: 0.5%;
     padding: 1%;
     box-sizing: border-box;
-}
+} */
 @media screen and (min-width: 801px) and (max-width: 1201px) {
     .funkcjeglowne {
         width: 48%;

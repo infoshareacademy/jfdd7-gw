@@ -43,3 +43,249 @@ main {
     animation-duration: .75s;
 }
 
+
+#funkcjepodstawowe {
+    background-color: rgba(63, 54, 75, 1);
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding-bottom: 50px;
+}
+
+@keyframes rubberBand {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, .95, 1);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.rubberBand {
+    animation-name: rubberBand;
+}
+@keyframes flipInY {
+    from {
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+
+    to {
+        transform: perspective(400px);
+    }
+}
+
+.flipInY {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    animation-name: flipInY;
+}
+.effect0 {
+    animation-delay: 0s;
+}
+
+.effect1 {
+    animation-delay: 1s;
+}
+
+.effect2 {
+    animation-delay: 2s;
+}
+
+.effect3 {
+    animation-delay: 3s;
+}
+
+
+#funkcjepodstawowe h2 {
+    text-align: center;
+    color: rgba(224, 217, 218, 1);
+    padding: 20px 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 50px;
+}
+
+#funkcjeglownekontener {
+    margin: auto;
+    text-align: center;
+    z-index:1;
+}
+
+.funkcjeglowne {
+    width: 23%;
+    min-width: 150px;
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: rgba(224, 217, 218, 1);
+    background-color: rgba(224, 217, 218, 0.1);
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0.5%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 801px) and (max-width: 1201px) {
+    .funkcjeglowne {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .funkcjeglowne {
+        width: 100%;
+    }
+}
+
+.funkcjeglowne i {
+    /*text-shadow: 2px 2px 4px #000000;*/
+    padding: 15px;
+}
+
+.funkcjeglowne h3 {
+    /*text-shadow: 2px 2px 4px #000000;*/
+    font-size: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.funkcjeglowne p {
+    padding-top: 20px;
+}
+
+.funkcjeglowne ol li {
+    list-style-type: none;
+}
+
+#funkcjerozszerzone {
+    color: #3f364b;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+#funkcjerozszerzone h2 {
+    text-align: center;
+    text-shadow: 2px 2px 4px #a33a50;
+    font-size: 2em;
+    padding-top: 50px;
+
+}
+
+#funkcjedodatkowe {
+
+}
+
+.kolumna {
+
+    width: 50%;
+    text-align: center;
+    }
+@media screen and (max-width: 800px) {
+    .kolumna {
+        width: 100%;
+    }
+}
+
+.funkcja {
+    background-color: rgba(224, 217, 218, 1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius:20px;
+    height: 170px;
+    position: relative;
+    box-shadow: 10px 10px 5px rgba(63, 54, 75, 0.8);
+
+}
+
+.funkcja > i {
+    color: rgba(163, 58, 80, 1);
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.funkcja h3 {
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.funkcja > div {
+    display: none;
+    background-color: rgba(163, 58, 80, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 150px;
+    width: 100%;
+    padding: 20px 0px;
+    /*margin: 0 0 0 20px;*/
+    border-radius:20px;
+    color: #f7cfb5;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.funkcja > div > div {
+    padding: 0 40px;
+    font-size: 1.2em;
+}
+
+.funkcja.animacja div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+
+}
+
+.funkcja:hover{
+    cursor: pointer;
+}
+
+.floatleft{
+    float:left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clearboth {
+clear: both;
+}

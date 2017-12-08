@@ -60,15 +60,17 @@ function creatBoard() {
         var target = emptyCells[Math.floor(Math.random() * emptyCells.length)];
         target.classList.add('coin')
     }
-    var pacX =0;
-    var pacY =0;
-    var pacMan = $('[data-x=" ' + pacX + ' "][data-y=" ' + pacY +' "]', gameBoard);
-    pacMan.addClass('pacman');
 
-    // var pacX =0;
-    // var pacY =0;
-    // var pacMan = $('[data-x="0"][data-y="0"]', gameBoard);
-    // pacMan.addClass('pacman');
+    var movePacman = setInterval(function(){
+        var pacX =0;
+        var pacY =0;
+        var pacMan = $('[data-x="' + pacX + '"][data-y="' + pacY +'"]', gameBoard);
+        pacMan.toggleClass('pacman');
+        pac
+    }, 100)
+
+
+
 
 
 }
